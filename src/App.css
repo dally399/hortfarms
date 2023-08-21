@@ -1,0 +1,34 @@
+:root{
+    font-family: 'Quicksand', sans-serif;
+    --green400: #50DA08;
+    --white: #ffffff;
+    --green700: #2D8407;
+    --secondaryColor: #F1FFE5;
+    --black: #000000;
+
+}
+
+.App{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: var(--white);
+}
+
+.Btn{
+    border: none;
+    padding: 0.7rem 1.5rem;
+    background: var(--green700);
+    outline: none;
+    border-radius: 3rem;
+    cursor: pointer;
+    color: var(--white);
+}
+
+
+

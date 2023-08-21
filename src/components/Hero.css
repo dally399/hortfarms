@@ -1,0 +1,23 @@
+.background-container{
+    height: 90vh;
+    background-image: url(../assets/bg1.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 0;
+}
+
+.left-side{
+    justify-content: center;
+    flex: 1;
+}
+
+.h3{
+    font-family: sans-serif;
+    flex: 1;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    color: var(--white);
+    margin-top: 50vh;
+}
