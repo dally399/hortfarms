@@ -1,6 +1,6 @@
 .background-container{
     height: 90vh;
-    background-image: url(../assets/bg1.jpg);
+    background-image: url(../assets/bg.jpg);
     background-size: cover;
     background-position: center;
     border-radius: 10px;
@@ -9,15 +9,51 @@
 
 .left-side{
     justify-content: center;
-    flex: 1;
+    display: flex;
+    position: relative;
+    padding: 100px 100px;
+   flex-direction: column;
+   align-items: center;
+   top: 20%;
+    justify-content: center;
 }
 
-.h3{
-    font-family: sans-serif;
-    flex: 1;
-    align-items: center;
+.h-top{
+    font-weight: 800;
+    font-size: 4rem;
+    color: var(--white);
     display: flex;
     justify-content: center;
-    color: var(--white);
-    margin-top: 50vh;
+    align-items: center;
+    
 }
+
+.h-mid{
+    font-weight: 600;
+    font-size: 2rem;
+    padding: 0px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h-below{
+    font-weight: 500;
+    font-size: 2rem;
+    padding: 0px;
+    color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Btn{
+    width: fit-content;
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+

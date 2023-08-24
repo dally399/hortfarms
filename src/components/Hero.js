@@ -6,13 +6,14 @@ function Hero() {
     <div className="background-container">
 
       <div className="left-side">
-      <h3>A New Way To Invest In Agriculture</h3>
-      <h2>Experience The Real</h2>
-      <h1>Agriculture</h1>
-      </div>
+        
+        <span className='h-top'>A New Way To Invest In Agriculture </span> <br />
+        <span className='h-mid'>Experience The Real</span> <br />
+        <span className='h-below'>Agriculture</span>
 
-      <button className='Btn'>Read More</button>
-     
+        <button className='Btn'>Read More</button>
+         
+      </div>     
     </div>
   )
 }
