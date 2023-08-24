@@ -15,7 +15,7 @@
     display: flex;
     gap: 2rem;
     width: 20%;
-    padding-left: 4rem;
+    margin-left: 2rem;
 }
 
 .nav-right{
@@ -25,7 +25,7 @@
     justify-content: center;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
-    padding-right: 4rem;
+    margin-right: 2rem;
 }
 
 .n-list{
@@ -41,6 +41,35 @@
 .n-list > ul > li:hover{
     cursor: pointer;
     color: var( --green400);
+}
+
+.dropdown-menu{
+    position: absolute;
+    border-radius: 8px;
+    top: 65%;
+    width: 100%;
+    padding: 0rem;
+}
+
+.dropdown-menu li{
+    background: var(--secondaryColor);
+    display: none;
+    padding: 0.5em 1em;
+    width: 8em;
+    text-align: center;
+    color: var(--black);
+    
+}
+
+.dropdown-menu li:hover{
+    background-color: #4c9e9e;
+    cursor: pointer;
+    font-family: 700;
+    color: var( --white);
+}
+
+.listItem:hover > .dropdown-menu li{
+    display: block;
 }
 
 @media screen and (max-width: 768px){
