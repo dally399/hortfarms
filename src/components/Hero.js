@@ -1,5 +1,6 @@
 import React from 'react'
 import './Hero.css'
+import 'animate.css';
 
 function Hero() {
   return (
@@ -7,9 +8,9 @@ function Hero() {
 
       <div className="left-side">
         
-        <span className='h-top'>A New Way To Invest In Agriculture </span> <br />
-        <span className='h-mid'>Experience The Real</span> <br />
-        <span className='h-below'>Agriculture</span>
+        <span className='h-top animate__animated animate__bounceInDown'>A New Way To Invest In Agriculture </span> <br />
+        <span className='h-mid animate__animated animate__bounceInDown'>Experience The Real</span> <br />
+        <span className='h-below animate__animated animate__bounceInDown'>Agriculture</span>
 
         <button className='Btn'>Read More</button>
          

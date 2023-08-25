@@ -9,11 +9,7 @@ import Services from './components/Services';
 import Products from './components/Products';
 import Blog from './components/Blog';
 import Contact from './components/ContactUs';
-import Banner from './components/Banner';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Card from './components/Card';
-
 
 function App() {
   return (
@@ -31,11 +27,9 @@ function App() {
       </Routes>
     </BrowserRouter>
     
-    <Hero/>
-    <Card/>
-    <Banner/>
-    <Footer/>
-
+    
+    <><Footer/></>
+    
     </div>
   );
 }
