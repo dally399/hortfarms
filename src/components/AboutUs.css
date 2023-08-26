@@ -9,7 +9,7 @@
 .inner-container{
     width: 55%;
     float: right;
-    background-color: #fdfdfd;
+    background-color: var(--white);
     padding: 150px;
 }
 
