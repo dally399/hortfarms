@@ -45,6 +45,7 @@
 .contact-form .input {
   position: relative;
   margin-bottom: 24px;
+  margin-right: 3rem;
 }
 
 .contact-form .input input,
@@ -83,6 +84,7 @@
 .contact-info {
   padding: 96px 48px;
   color: #e4e4e7;
+  margin-right: 2rem;
 }
 
 .contact-info .heading {

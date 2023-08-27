@@ -5,7 +5,7 @@ import Banner from './Banner';
 import InfoSection from './InfoSection';
 import Achievements from './Achievements';
 import Testimonials from './Testimonials';
-
+import ProductCarousel from './ProductCarousel';
 
 function Home() {
   return (
@@ -17,6 +17,7 @@ function Home() {
     <InfoSection/>
     <Achievements/>
     <Testimonials/>
+    <ProductCarousel/>
 
     </div>
   )

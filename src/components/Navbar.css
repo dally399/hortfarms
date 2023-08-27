@@ -48,15 +48,24 @@
     border-radius: 8px;
     width: 100%;
     padding: 0;
-    display: none; /* Hide dropdown menu by default */
+    display: none; 
 }
 
 .listItem:hover > .dropdown-menu {
-    display: block; /* Show dropdown menu on hover */
+    display: block;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.link:hover{
+    color: var(--green400);
 }
 
 .dropdown-menu li {
-    background: var(--secondaryColor);
+    background: var(--white);
     padding: 0.5em 1em;
     width: 8em;
     text-align: center;
@@ -64,30 +73,10 @@
 }
 
 .dropdown-menu li:hover {
-    background-color: #4c9e9e;
+    background-color: var(--green400);
     cursor: pointer;
-    font-weight: 700; /* Use font-weight value instead of font-family */
+    font-weight: 800; 
     color: var(--white);
 }
 
-/* Rest of your CSS */
 
-/* Media query for smaller screens */
-@media screen and (max-width: 768px) {
-    /* Your existing styles for .nav-right and .n-list */
-
-    .listItem {
-        /* Your existing styles for .listItem */
-    }
-
-    .dropdown-menu {
-        /* Your existing styles for .dropdown-menu */
-        top: 100%; /* Adjust this value to position the dropdown below the parent */
-        left: 0; /* Ensure the dropdown is aligned with the parent */
-        display: none; /* Hide dropdown menu by default */
-    }
-
-    .listItem:hover > .dropdown-menu {
-        display: block; /* Show dropdown menu on parent hover */
-    }
-}

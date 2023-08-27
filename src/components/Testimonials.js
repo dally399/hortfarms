@@ -36,6 +36,7 @@ function Testimonials() {
   }
 
   return (
+    <div className="main-body">
     <main>
       <h1>Testimonials</h1>
       <div className="testimonial">
@@ -64,6 +65,7 @@ function Testimonials() {
         ))}
       </div>
     </main>
+    </div>
   );
 }
 

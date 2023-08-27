@@ -4,14 +4,13 @@
     --white: #ffffff;
     --green700: #2D8407;
     --green950: #4c9e9e;
-    --secondaryColor: #F1FFE5;
+    --secondaryColor: #C0FF96;
     --black: #000000;
 
 }
 
 .App{
     padding: 0;
-    margin: 0;
     overflow: hidden;
     box-sizing: border-box;
     scroll-behavior: smooth;
