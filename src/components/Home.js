@@ -4,7 +4,9 @@ import Card from './Card';
 import Banner from './Banner';
 import Achievements from './Achievements';
 import Testimonials from './Testimonials';
-import ProductCarousel from './ProductCarousel';
+import NewsletterForm from './NewsletterForm';
+import Slider from './Slider';
+
 
 function Home() {
   return (
@@ -13,10 +15,11 @@ function Home() {
     <><Hero/></>      
     <><Card/></>
     <><Banner/></>
+    <Slider/>
     <Achievements/>
     <Testimonials/>
-    <ProductCarousel/>
-
+    <NewsletterForm/>
+   
     </div>
   )
 }

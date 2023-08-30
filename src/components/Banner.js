@@ -6,10 +6,7 @@ function Banner() {
     <div className="main-container">
     <div className="container-banner">
       <div className="left-content">
-        <div className="photo">
-          <div>hello</div>
-          {/* <img src="/hortfarms/src/assets/background.jpg" alt="" /> */}
-        </div>
+        {/* photo */}
       </div>
       <div className="right-content">
         <div className="txt-area">
@@ -32,11 +29,8 @@ function Banner() {
           </div>
         </div>        
       </div> 
-      <div className="cont-bottom-right">
-        <div className="photo">
-          <div>hello</div>
-          {/* <img src="/hortfarms/src/assets/background.jpg" alt="" /> */}
-        </div>
+      <div className="cont-bottom-right">        
+         {/* photo */}
       </div>
         
     </div>

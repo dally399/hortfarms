@@ -2,15 +2,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-top: 4rem;
+    margin-top: 3rem;
     padding-left: 4rem;
     padding-right: 4rem;
     align-items: center;
-    height: 50vh;
+    background: #F1FFE5;
+    height: auto;
 }
 
 .card-contents{
-    /* background: green; */
     display: flex;
     
 }
@@ -42,7 +42,7 @@
   }
   
   .content-box {
-    background: rgba(4, 193, 250, 0.732);
+    background: #3AAE02;
     /* border-radius: 10px 100px 10px 10px; */
     transition: all 0.5s ease-in-out;
     padding: 60px 25px 25px 25px;
@@ -74,26 +74,7 @@
   .content-box .card-content:hover {
     transform: translate3d(0px, 0px, 60px);
   }
-  
-  .content-box .see-more {
-    cursor: pointer;
-    margin-top: 1rem;
-    display: inline-block;
-    font-weight: 900;
-    font-size: 9px;
-    text-transform: uppercase;
-    color: rgb(7, 185, 255);
-    /* border-radius: 5px; */
-    background: white;
-    padding: 0.5rem 0.7rem;
-    transition: all 0.5s ease-in-out;
-    transform: translate3d(0px, 0px, 20px);
-  }
-  
-  .content-box .see-more:hover {
-    transform: translate3d(0px, 0px, 60px);
-  }
-  
+    
   .date-box {
     position: absolute;
     top: 30px;
@@ -102,7 +83,6 @@
     width: 60px;
     background: white;
     border: 1px solid rgb(7, 185, 255);
-    /* border-radius: 10px; */
     padding: 10px;
     transform: translate3d(0px, 0px, 80px);
     box-shadow: rgba(100, 100, 111, 0.2) 0px 17px 10px -10px;

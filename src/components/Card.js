@@ -11,7 +11,7 @@ function Card() {
           <p className="card-content">
           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
           </p>
-          <span className="see-more">See More</span>
+        
         </div>
         <div className="date-box">
           <span className="month">JUNE</span>
@@ -23,11 +23,11 @@ function Card() {
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">3D Card</span>
+          <span className="card-title">Grain <br /> Marketing</span>
           <p className="card-content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
           </p>
-          <span className="see-more">See More</span>
+        
         </div>
         <div className="date-box">
           <span className="month">JUNE</span>
@@ -38,11 +38,11 @@ function Card() {
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">3D Card</span>
+          <span className="card-title">Farm <br /> Supplies</span>
           <p className="card-content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
           </p>
-          <span className="see-more">See More</span>
+        
         </div>
         <div className="date-box">
           <span className="month">JUNE</span>
@@ -53,11 +53,11 @@ function Card() {
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">3D Card</span>
+          <span className="card-title">Farm <br /> Supplies</span>
           <p className="card-content">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+           It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
           </p>
-          <span className="see-more">See More</span>
+  
         </div>
         <div className="date-box">
           <span className="month">JUNE</span>

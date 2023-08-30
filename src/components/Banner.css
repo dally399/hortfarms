@@ -13,10 +13,10 @@
 }
 
 .left-content{
-   background: gold;
-    height: 50vh;
+    height: 45vh;
     border-radius: 10px;
-    background: url("../assets/background.jpg");
+    object-fit: cover;
+    background: url("../assets/avocados-img1.jpg");
     width: 80vh;
 }
 
@@ -33,10 +33,10 @@
 }
 
 .cont-bottom-right{
-    background: gold;
-    height: 50vh;
+    height: 45vh;
     border-radius: 10px;
-    background: url("../assets/background.jpg");
+    background: url("../assets/avocado-img2.jpg");
+    object-fit: cover;
     width: 80vh;
 }
 

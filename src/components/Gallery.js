@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+import './Gallery.css'
 
 function Gallery() {
   return (
-    <div>Gallery</div>
-  )
+    <div className="gallery">
+      <img src="https://images.pexels.com/photos/60163/pexels-photo-60163.jpeg" alt="" />
+      <img src="https://images.pexels.com/photos/159613/ghettoblaster-radio-recorder-boombox-old-school-159613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+      <img src="https://images.pexels.com/photos/1002669/pexels-photo-1002669.jpeg" alt="" />
+      <img src="https://images.pexels.com/photos/7810405/pexels-photo-7810405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+      <img src="https://images.pexels.com/photos/5699509/pexels-photo-5699509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+      <img src="https://images.pexels.com/photos/7162533/pexels-photo-7162533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+      <img src="https://images.pexels.com/photos/3808904/pexels-photo-3808904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+      <img src="https://images.pexels.com/photos/3944091/pexels-photo-3944091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+      <img src="https://images.pexels.com/photos/821738/pexels-photo-821738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
+    </div>
+  );
 }
 
-export default Gallery
+export default Gallery;
