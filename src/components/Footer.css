@@ -1,7 +1,7 @@
 
 .footer_contain {
     max-width: 1170px;
-    background-color: var(--green950);
+    background-color: #0F2027;
     margin: auto;
 }
 
@@ -10,8 +10,9 @@ ul {
 }
 
 .footer {
-    background-color: var(--green950);
+    background-color: #0F2027;
     padding: 70px 0;
+    /* margin-top: 1rem; */
 }
 
 .row_footer {
@@ -51,10 +52,10 @@ ul {
 .footer_column ul li a {
     font-size: 16px;
     text-transform: capitalize;
-    color: var(--white);
+    /* color: var(--white); */
     text-decoration: none;
     font-weight: 300;
-    color: #bbbbbb;
+    /* color: #bbbbbb; */
     display: block;
     transition: all 0.3s ease;
 }

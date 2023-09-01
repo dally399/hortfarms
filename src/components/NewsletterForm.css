@@ -1,12 +1,17 @@
 .form {
     display: flex;
     flex-direction: column;
-    background: #606c88;
-    background: -webkit-linear-gradient(to right, #3f4c6b, #606c88);
-    background: linear-gradient(to right, #3f4c6b, #606c88);
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
+    /* background: #00bf8f; 
+    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  
+    background: linear-gradient(to right, #001510, #00bf8f); */
+
+    background: var(--green700);
     padding: 20px;
-    border-radius: 10px;
-    max-width: 350px;
+    /* border-radius: 10px; */
   }
   
   .title {

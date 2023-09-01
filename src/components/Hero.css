@@ -4,16 +4,21 @@
     background-position:center;
     object-fit: cover;    
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
     margin-top: 0;
 }
 
 .left-side{
     justify-content: center;
     display: flex;
-    position: relative;
+    max-width: 600px;
+    position: absolute;
     padding: 90px 40px;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
     top: 20%;
 }
 
@@ -21,31 +26,22 @@
     font-weight: 800;
     font-size: 3rem;
     color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    text-align: center;
 }
 
 .h-mid{
     font-weight: 600;
     font-size: 2rem;
-    padding-right: 120px;
     color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 .h-below{
     font-weight: 500;
     font-size: 2rem;
     padding: 0px;
-    padding-right: 200px;
     color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;   
 }
 
 .Btn-hero{
@@ -53,7 +49,6 @@
     margin-top: 1rem;
     display: flex;
     flex-direction: row;
-    margin-right: 200px;
     justify-content: center;
     align-items: center;
 

@@ -117,6 +117,13 @@
   color: #e4e4e7;
 }
 
+.map-section{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 @media screen and (max-width: 1024px) {
   .contact-container {
     flex-direction: column;

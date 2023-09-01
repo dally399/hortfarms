@@ -1,6 +1,5 @@
  main {
     width: 800px;
-    /* background: gold; */
   }
   
   main h1 {
@@ -76,7 +75,7 @@
   .indicator {
     display: flex;
     justify-content: center;
-    margin-top: 4rem;
+    margin-top: 1rem;
   }
   
   .indicator .btn {
@@ -85,7 +84,7 @@
     width: 15px;
     margin: 4px;
     border-radius: 15px;
-    background: var(--black);
+    background: var(--green700);
     cursor: pointer;
     transition: all 0.5s ease-in-out;
   }

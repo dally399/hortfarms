@@ -13,11 +13,11 @@
 
   .container-achievements{
     display: flex;
-    margin-top: 3rem;
     justify-content: center;
     padding-left: 4rem;
     padding-right: 4rem;
     align-items: center;
+    margin-top: 3rem;
   }
   
   .card-items .item {
@@ -83,4 +83,12 @@
   
   .text--4 {
     color: rgba(220,91,183,1);
+  }
+
+  .achieve-title{
+    text-align: center;
+    margin-top: 4rem;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 2rem;
   }

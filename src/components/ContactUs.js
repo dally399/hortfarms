@@ -3,6 +3,7 @@ import './ContactUs.css'
 
 function ContactUs() {
   return (
+    <div className="main-container">
     <section className="contact-container">
       <div className="contact-logo">
       </div>
@@ -54,6 +55,20 @@ function ContactUs() {
         <div className="social-links"></div>
       </div>
     </section>
+
+<div className="map-section">
+  <span className='locate'>Our Location</span>
+ <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31917.55994431717!2d34.11568455!3d0.4504969!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177fa198981abd19%3A0x3ca0969960bd9651!2sMjini!5e0!3m2!1sen!2ske!4v1693475549290!5m2!1sen!2ske"
+      width="600"
+      height="450"
+      style={{ border: 0 }}
+      allowFullScreen=""
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+  ></iframe>
+</div>
+    </div>
   );
 }
 

@@ -11,6 +11,7 @@ import Blog from './components/Blog';
 import Contact from './components/ContactUs';
 import Footer from './components/Footer';
 
+
 function App() {
   return (
     <div className="App">
@@ -27,8 +28,19 @@ function App() {
       </Routes>
     </BrowserRouter>
     
-    
-    <><Footer/></>
+  
+    <BrowserRouter>
+    <Footer/>   
+      <Routes>
+
+        <Route exact path='/about' element={<AboutUs/>}></Route>
+        <Route exact path='/services' element={<Services/>}></Route>
+        <Route exact path='/policy' element={<Gallery/>}></Route>
+        <Route exact path='/faq' element={<Products/>}></Route>
+        <Route exact path='/terms' element={<Blog/>}></Route>
+        <Route exact path='/contact' element={<Contact/>}></Route>
+      </Routes>
+    </BrowserRouter>
     
     </div>
   );

@@ -3,6 +3,8 @@ import './Achievements.css'
 
 function Achievements() {
   return (
+    <div className="achieve-title">
+      <span>Our Achievements</span>
     <div className="container-achievements">
       <div className="card-items">
     <div className="item item--1">
@@ -21,8 +23,9 @@ function Achievements() {
       <span className="quantity">3</span>
       <span className="text text--4">Winning Awards</span>
     </div>
-  </div></div>
-    
+  </div>
+  </div>
+  </div>    
   )
 }
 
