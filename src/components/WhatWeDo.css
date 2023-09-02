@@ -1,10 +1,29 @@
 .card-container-exp {
-  width: 300px;
-  height: 300px;
+  width: 350px;
+  height: 350px;
   position: relative;
   border-radius: 10px;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+}
+
+.main-container-exp{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  gap: 2rem;
+  background: #F1FFE5;
+  padding: 3rem;
+  align-items: center;
+}
+
+.title-main{
+  text-align: center;
+  background:  #F1FFE5;
+  padding-top: 4rem;
+  font-size: 3rem;
 }
 
 .card-exp {
@@ -26,7 +45,11 @@
   font-size: 32px;
   font-weight: 700;
   opacity: 1;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  
+  background: #11998e;  
+background: -webkit-linear-gradient(to left, #38ef7d, #11998e); 
+background: linear-gradient(to left, #38ef7d, #11998e); 
+
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -45,9 +68,13 @@
   justify-content: center;
   text-align: center;
   gap: 10px;
-  background: linear-gradient(-45deg, #f89b29 0%, #ff0f7b 100% );
+  
+  background: #11998e; 
+background: -webkit-linear-gradient(to left, #38ef7d, #11998e); 
+background: linear-gradient(to left, #38ef7d, #11998e); 
+
   color: #e8e8e8;
-  padding: 20px;
+  padding-top: 20px;
   line-height: 1.5;
   border-radius: 5px;
   pointer-events: none;
@@ -58,6 +85,7 @@
 .card-exp .content-exp .heading {
   font-size: 32px;
   font-weight: 700;
+  text-align: center;
 }
 
 .card-exp:hover .content-exp {
@@ -72,3 +100,6 @@
   opacity: 0;
 }
 
+.cont-exp{
+  font-size: 20px;
+}

@@ -3,20 +3,48 @@ import './WhatWeDo.css'
 
 function WhatWeDo() {
   return (
+    <div className="title-main">
+      <span>What We Do</span>
+    <div className="main-container-exp">
     <div class="card-container-exp">
-  <div class="card-exp">
-  <div class="front-content">
-    <p>Hover me</p>
-  </div>
+      <div class="card-exp">
+        <div class="front-content">
+         <p>Sourcing and Export</p>
+       </div>
   <div class="content-exp">
-    <p class="heading">Card Hover</p>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipii
-      voluptas ten mollitia pariatur odit, ab
-      minus ratione adipisci accusamus vel est excepturi laboriosam magnam
-      necessitatibus dignissimos molestias.
-    </p>
+    <p class="heading">Sourcing and Export</p>
+    <span className='cont-exp'>Sourcing and export of Hass and Fuerte Acocados</span>
+    {/* <p>
+     Sourcing and export of Hass and Fuerte Acocados
+    </p> */}
   </div>
+</div>
+</div>
+
+<div class="card-container-exp">
+      <div class="card-exp">
+        <div class="front-content">
+         <p>Export of Fruits and Vegetables</p>
+       </div>
+  <div class="content-exp">
+    <p class="heading">Export of Fruits and Vegetables</p>
+    <span className='cont-exp'>We focus on the export of fruits and Vegetables</span>
+  </div>
+</div>
+</div>
+
+<div class="card-container-exp">
+      <div class="card-exp">
+        <div class="front-content">
+         <p>Work with Contracted Farmers</p>
+       </div>
+  <div class="content-exp">
+    <p class="heading">Work with Contracted Farmers</p>
+    <span className='cont-exp'> Work with Contracted Farmers who are gap certified</span>
+  </div>
+</div>
+</div>
+
 </div>
 </div>
   )

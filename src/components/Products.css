@@ -1,0 +1,95 @@
+.main-body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.body-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 4rem;
+}
+
+.content-left{      
+    object-fit: contain;
+    background: url("../assets/hass-avocado.jpeg");
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+    
+.content-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 20px;
+}
+
+.content-right-mid{
+    object-fit: contain;
+    background: url("../assets/hass-avocado.jpeg");
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+.content-left-mid{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-right: 20px;
+}
+
+.container-heading{
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--green700);
+}
+.hass-title, .fuerte-title{
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.hass-content, .fuerte-container{
+    font-size: 1.1rem;
+    font-weight: 300;
+}
+
+.description-heading{
+    margin-top: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* background: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  
+
+
