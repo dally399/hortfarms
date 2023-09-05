@@ -32,5 +32,10 @@ body{
     color: var(--white);
 }
 
+.icon{
+    font-size: 2rem;
+    cursor: pointer;
+}
+
 
 

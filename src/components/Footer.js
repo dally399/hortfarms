@@ -2,6 +2,10 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import './Footer.css'
 
+import { BsFacebook } from "react-icons/bs";
+import { BsWhatsapp } from "react-icons/bs";
+import { BsInstagram } from "react-icons/bs";
+import { AiFillYoutube } from "react-icons/ai";
 
 
 function Footer() {
@@ -32,10 +36,10 @@ function Footer() {
                 <div class="footer_column">
                     <h4>Follow us</h4>
                     <div class="social_links">
-                        <Link to='' ></Link>
-                        <Link to='' ></Link>
-                        <Link to='' ></Link>
-                        <Link to='' ></Link>
+                        <Link to='' ><BsFacebook className='icon-footer'/></Link>
+                        <Link to='' ><BsWhatsapp className='icon-footer'/></Link>
+                        <Link to='' ><BsInstagram className='icon-footer'/></Link>
+                        <Link to='' ><AiFillYoutube className='icon-footer'/></Link>
                     </div>
                 </div>
             </div>

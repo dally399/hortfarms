@@ -1,6 +1,11 @@
 import React from 'react'
 import './Card.css'
 
+import { GiWheat } from "react-icons/gi";
+import { GiFarmTractor } from "react-icons/gi";
+import { GiFruitBowl } from "react-icons/gi";
+import { GiBarn } from "react-icons/gi";
+
 function Card() {
   return (
     <div className="card-container">
@@ -14,8 +19,7 @@ function Card() {
         
         </div>
         <div className="date-box">
-
-          <img src="../assets/icons8-agricultural-64.png" alt="" />
+            <GiWheat className='icon-card'/>
         </div>
       </div>
     </div></div>
@@ -30,8 +34,7 @@ function Card() {
         
         </div>
         <div className="date-box">
-          <span className="month">JUNE</span>
-          <span className="date">29</span>
+        <GiFarmTractor className='icon-card'/>
         </div>
       </div>
     </div></div>
@@ -45,8 +48,7 @@ function Card() {
         
         </div>
         <div className="date-box">
-          <span className="month">JUNE</span>
-          <span className="date">29</span>
+        <GiBarn className='icon-card'/>
         </div>
       </div>
     </div></div>
@@ -60,8 +62,7 @@ function Card() {
   
         </div>
         <div className="date-box">
-          <span className="month">JUNE</span>
-          <span className="date">29</span>
+        <GiFruitBowl className='icon-card'/>
         </div>
       </div>
     </div></div>
