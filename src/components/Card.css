@@ -12,7 +12,7 @@
 
 .card-contents{
     display: flex;
-    
+    padding-top: 4rem;
 }
 
 .parent {

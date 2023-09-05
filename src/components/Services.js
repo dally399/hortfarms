@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css'; // Make sure to import the Font Awesome CSS file and your own stylesheet if needed
+import './Services.css'; 
 
 function Services() {
   return (

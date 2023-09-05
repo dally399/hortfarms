@@ -14,6 +14,7 @@ import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 export default function Slider() {
   return (
+    <div className="swiper-container-body">   
     <>
       <Swiper
         effect={'coverflow'}
@@ -60,5 +61,7 @@ export default function Slider() {
         </SwiperSlide>
       </Swiper>
     </>
+
+    </div>
   );
 }
