@@ -27,8 +27,12 @@ function WhatWeDo() {
          <p>Export of Fruits and Vegetables</p>
        </div>
   <div class="content-exp">
-    <p class="heading">Export of Fruits and Vegetables</p>
-    <span className='cont-exp'>We focus on the export of fruits and Vegetables</span>
+    {/* <p class="heading">Export of Fruits and Vegetables</p> */}
+    <span className='cont-exp'>We are exporter of best quality of Avocados
+worldwide
+We, at HortFarms Ltd specialise in high quality fresh
+Avocado. Each fruit is handpicked and passes
+through quality control before making into final export.</span>
   </div>
 </div>
 </div>

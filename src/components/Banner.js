@@ -10,10 +10,19 @@ function Banner() {
       </div>
       <div className="right-content">
         <div className="txt-area">
-          <div className="txt-title">A New Way To Invest In Agriculture</div>
-          <div className="sub-title">Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magnaliqua Ut Enim Ad Minim Veniam Ullamco</div>
+          <div className="txt-title">Our continual growth has been instigated by a number of factors and initiatives and value which include;</div>
+          {/* <div className="sub-title">Sed Do Eiusmod Tempor Incididunt Ut Labore Et Dolore Magnaliqua Ut Enim Ad Minim Veniam Ullamco</div> */}
           <div className="txt-content">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo delectus saepe corrupti perferendis quaerat placeat consequatur numquam est, quae error voluptas, veritatis praesentium illum ratione voluptatem repellat cum sint recusandae odio aliquid harum! Qui molestias quam delectus natus minus, maiores nam odio eaque soluta. Ipsam, amet! Rem dignissimos esse aperiam? Optio eius eligendi quas accusantium distinctio, aliquid iure quo officia neque itaque sequi. Obcaecati sit consequuntur quos itaque, neque eum delectus vitae numquam accusantium quae soluta ab corporis libero beatae iure nulla. Autem nam repudiandae sit veritatis totam corrupti voluptatem excepturi facere, dolorem, quis atque sequi id harum eius recusandae.
+          • Competent and professional team
+• Competitive prices
+• Professional consultation
+• Strategic market-based agreements with organized farmers
+• Transparency Value chain
+• Production and packaging of quality products
+• We value food safety
+• We value Occupational health and safety of our employees
+
+
           </div>
         </div>        
       </div>      
