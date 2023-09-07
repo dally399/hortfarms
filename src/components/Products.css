@@ -16,7 +16,7 @@
 
 .content-left{      
     object-fit: contain;
-    background: url("../assets/hass-avocado.jpeg");
+    background: url("../assets/hass-avocado.jpeg") no-repeat;
     width: 100%;
     aspect-ratio: 1/1;
 }
@@ -30,7 +30,7 @@
 
 .content-right-mid{
     object-fit: contain;
-    background: url("../assets/hass-avocado.jpeg");
+    background: url("../assets/hass-avocado.jpeg") no-repeat;
     width: 100%;
     aspect-ratio: 1/1;
 }

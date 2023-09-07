@@ -1,16 +1,21 @@
 import React from 'react';
-// Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
-
 import './Slider.css';
-
-// import required modules
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+
+//other imports
+import hass1 from '../assets/hass-avocado-1.jpeg'
+import hass2 from '../assets/hass-avocado-2.jpg'
+import hass3 from '../assets/hass-avocado-3.jpg'
+import hass4 from '../assets/Fuerte-avocados.jpg'
+import hass5 from '../assets/Hass-Avocado-Farming-In-Kenya-1200x900.webp'
+import hass6 from '../assets/hasss.webp'
+import hass7 from '../assets/images (1).jpeg'
+import hass8 from '../assets/images.jpeg'
+import hass9 from '../assets/licensed-image.jpeg'
 
 export default function Slider() {
   return (
@@ -33,31 +38,31 @@ export default function Slider() {
         className="mySwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt=''/>
+          <img src={hass1} alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt=''/>
+          <img src={hass2} alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt=''/>
+        <img src={hass3} alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt=''/>
+        <img src={hass4} alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" alt=''/>
+        <img src={hass5} alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" alt=''/>
+        <img src={hass6} alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" alt=''/>
+        <img src={hass7} alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" alt=''/>
+        <img src={hass8} alt=''/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" alt=''/>
+        <img src={hass9} alt=''/>
         </SwiperSlide>
       </Swiper>
     </>

@@ -1,19 +1,30 @@
 import React from 'react';
 import './Gallery.css'
 
+//other imports
+import hass1 from '../assets/hass-avocado-1.jpeg'
+import hass2 from '../assets/hass-avocado-2.jpg'
+import hass3 from '../assets/hass-avocado-3.jpg'
+import hass4 from '../assets/Fuerte-avocados.jpg'
+import hass5 from '../assets/Hass-Avocado-Farming-In-Kenya-1200x900.webp'
+import hass6 from '../assets/hasss.webp'
+import hass7 from '../assets/images (1).jpeg'
+import hass8 from '../assets/images.jpeg'
+import hass9 from '../assets/licensed-image.jpeg'
+
 function Gallery() {
   return (
     <div className="gallery">
-      <img src="https://images.pexels.com/photos/60163/pexels-photo-60163.jpeg" alt="" />
-      <img src="https://images.pexels.com/photos/159613/ghettoblaster-radio-recorder-boombox-old-school-159613.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-      <img src="https://images.pexels.com/photos/1002669/pexels-photo-1002669.jpeg" alt="" />
-      <img src="https://images.pexels.com/photos/7810405/pexels-photo-7810405.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-      <img src="https://images.pexels.com/photos/5699509/pexels-photo-5699509.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-      <img src="https://images.pexels.com/photos/7162533/pexels-photo-7162533.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-      <img src="https://images.pexels.com/photos/3808904/pexels-photo-3808904.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-      <img src="https://images.pexels.com/photos/3944091/pexels-photo-3944091.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-      <img src="https://images.pexels.com/photos/821738/pexels-photo-821738.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="" />
-    </div>
+       <img src={hass1} alt=''/>
+       <img src={hass2} alt=''/>
+       <img src={hass3} alt=''/>
+       <img src={hass4} alt=''/>
+       <img src={hass5} alt=''/>
+       <img src={hass6} alt=''/>
+       <img src={hass7} alt=''/>
+       <img src={hass8} alt=''/>
+       <img src={hass9} alt=''/>
+      </div>
   );
 }
 

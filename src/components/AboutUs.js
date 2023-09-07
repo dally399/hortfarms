@@ -1,9 +1,12 @@
 import React from 'react'
 import './AboutUs.css'
 
+// import about from '../assets/background.jpg'
+
 function AboutUs() {
   return (
     <div className="about-section">
+      {/* <img src={about} alt="" /> */}
       <div className="inner-container">
         <h1>About Us</h1>
         <p className="text">

@@ -14,7 +14,7 @@ function Card() {
         <div className="content-box">
           <span className="card-title">Agricultural Products</span>
           <p className="card-content">
-          They play a vital role in supplying food, raw materials, and economic livelihoods to communities worldwide, serving as the foundation of our global food supply chain.
+          We at Hortfarms Ltd play a vital role in supplying food, raw materials, and economic livelihoods to communities worldwide, serving as the foundation of our global food supply chain.
           </p>
         
         </div>
@@ -29,7 +29,7 @@ function Card() {
         <div className="content-box">
           <span className="card-title">Modern <br /> Techniques</span>
           <p className="card-content">
-          These methods prioritize sustainable practices, including organic farming, crop rotation, and reduced chemical usage, to protect the environment and promote long-term food security. 
+          We prioritize sustainable practices, including organic farming, crop rotation, and reduced chemical usage, to protect the environment and promote long-term food security. 
           </p>
         
         </div>

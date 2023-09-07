@@ -1,7 +1,9 @@
 .about-section{
-    background: url(https://fadzrinmadu.github.io/hosted-assets/responsive-about-us-section-using-html/pic.jpg) no-repeat left;
     background-size: 55%;
+    background: url(../assets/alternative-906138_1920.jpg)  no-repeat left;
     background-color: #fdfdfd;
+    object-fit: cover;
+    aspect-ratio: 16/6;    
     overflow: hidden;
     padding: 100px 0;
 }
@@ -9,7 +11,8 @@
 .inner-container{
     width: 55%;
     float: right;
-    background-color: var(--white);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
     padding: 150px;
 }
 

@@ -3,6 +3,7 @@
   height: 350px;
   position: relative;
   border-radius: 10px;
+  background: white;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   overflow: hidden;
 }
@@ -24,7 +25,10 @@
   background:  #F1FFE5;
   padding-top: 7rem;
   padding-bottom: 3rem;
-  font-size: 3rem;
+  font-weight: 500;
+  /* font-size: 2.5rem; */
+  font-size: 35px;
+    /* line-height: 44px; */
 }
 
 .card-exp {

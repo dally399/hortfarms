@@ -1,75 +1,30 @@
-.main-container{
+.banner-main-container{
     margin-top: 3rem;
     padding-left: 4rem;
     padding-right: 4rem;
-    /* display: grid;
-    grid-template-columns: repeat(2 1fr); */
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(2 ,1fr);
 }
 
-.container-banner{
-    height: auto;
+.banner-left{
+    /* background: gold; */
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center; 
-}
-
-.left-content{
-    height: 45vh;
-    border-radius: 10px;
-    object-fit: cover;
-    background: url("../assets/avocados-img1.jpg");
-    width: 80vh;
-}
-
-.right-content{
-    padding-left: 2rem;
-    height: 50vh;
-    margin-top: 2rem;
-    display: flex;
-    flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
-    width:fit-content;
+    /* aspect-ratio: 1/1; */    
 }
 
-.cont-bottom-right{
-    height: 45vh;
-    border-radius: 10px;
-    background: url("../assets/avocado-img2.jpg");
-    object-fit: cover;
-    width: 80vh;
+.banner-right{
+    padding-left: 10px;
 }
 
-.cont-bottom-left{
-    height: 60vh;
-    display: flex;
-    padding-right: 2rem;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    width:fit-content;
+.banner-content{
+    display: inline-block;
 }
 
-.txt-title{
-    font-weight: 900;
-    font-size: 2rem;
-    font-style: normal;
+.banner-title{
+    font-size: 30px;
+    font-weight: 400;
 }
 
-.txt-content{
-    text-align: justify;
-    text-overflow: ellipsis;
-    font-style: normal;
-    margin-top: 1rem;
-}
-
-.sub-title{
-    text-align: start;
-    font-weight: 700;
-    font-size: 1rem;
-    margin-top: 1rem;
-
-}

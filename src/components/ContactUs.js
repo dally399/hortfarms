@@ -1,30 +1,31 @@
 import React from 'react'
 import './ContactUs.css'
 
+import { CiLocationOn } from "react-icons/ci";
+import { HiOutlineMail } from "react-icons/hi";
+import { BsTelephone } from "react-icons/bs";
+
 function ContactUs() {
   return (
     <div className="main-container">
     <section className="contact-container">
       <form className="contact-form">
         <div className="heading">
-          <h2>CONTACT US</h2>
-          <p>feel free to reach out to us, we'd love to hear from you!</p>
+          <h2>GET IN TOUCH</h2>
+          <p>Send Us A Message</p>
         </div>
         <div className="input">
-          <i className="fa-regular fa-user"></i>
-          <input name="username" type="text" placeholder="Username" />
+          <input name="username" type="text" placeholder="Your Name*" />
         </div>
         <div className="input">
-          <i className="fa-regular fa-envelope"></i>
-          <input name="email" type="email" placeholder="Email" />
+          <input name="email" type="email" placeholder="Your Email*" />
         </div>
         <div className="input">
-          <i className="fa-regular fa-message"></i>
           <textarea
             name="message"
             cols="30"
             rows="10"
-            placeholder="Message"
+            placeholder="Your Message*"
             style={{ resize: 'none' }}
           ></textarea>
         </div>
@@ -34,19 +35,19 @@ function ContactUs() {
         <h3 className="heading">OUR INFORMATIONS</h3>
         <ul className="contacts">
           <li>
-            <i className="fa-solid fa-location-dot"></i>
+            <CiLocationOn className='icon-us'/>
             123 Main Street, Suite 456, Anytown
           </li>
           <li>
-            <i className="fa-solid fa-envelope"></i>
+            <HiOutlineMail className='icon-us'/>
             info@apexenterprises.com
           </li>
           <li>
-            <i className="fa-solid fa-phone"></i>
+           <BsTelephone className='icon-us'/>
             555-123-4567
           </li>
           <li>
-            <i className="fa-solid fa-print"></i>
+          <BsTelephone className='icon-us'/>
             555-987-6543
           </li>
         </ul>

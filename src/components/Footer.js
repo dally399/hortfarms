@@ -36,7 +36,7 @@ function Footer() {
                 <div class="footer_column">
                     <h4>Follow us</h4>
                     <div class="social_links">
-                        <Link to='' ><BsFacebook className='icon-footer'/></Link>
+                        <Link to=''><BsFacebook className='icon-footer'/></Link>
                         <Link to='' ><BsWhatsapp className='icon-footer'/></Link>
                         <Link to='' ><BsInstagram className='icon-footer'/></Link>
                         <Link to='' ><AiFillYoutube className='icon-footer'/></Link>
