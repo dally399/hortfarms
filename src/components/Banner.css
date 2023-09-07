@@ -8,11 +8,10 @@
 }
 
 .banner-left{
-    /* background: gold; */
+    background: gold;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* aspect-ratio: 1/1; */    
 }
 
 .banner-right{

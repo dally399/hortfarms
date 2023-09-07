@@ -1,13 +1,14 @@
 import React from 'react'
 import './Banner.css'
 
-import banner_img from '../assets/avocado-img2.jpg'
+import banner_img1 from '../assets/avocado-fruit.jpeg'
+import banner_img2 from '../assets/package-avocado.png'
 
 function Banner() {
   return (
    <div className="banner-main-container">
     <div className="banner-left">
-        <img src={banner_img} alt="" />
+        <img src={banner_img1} alt="" />
     </div>
 
     <div className="banner-right">
@@ -35,7 +36,7 @@ through quality control before making into final export.
     </div>
 
     <div className="banner-left">
-        <img src={banner_img} alt="" />
+        <img src={banner_img2} alt="" />
     </div>
    </div>
   )
