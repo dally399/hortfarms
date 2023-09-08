@@ -2,13 +2,12 @@ import React from 'react'
 import './Blog.css'
 
 function Blog() {
-  return (
+  return ( 
    <div className="blog-header">
     <div className="blog-heading">
-      <span>Blog</span>
+      <span>Latest In The Blogs</span>
     </div>
     <div className="blog-container-top">      
-    
 
     <div class="card_blog">
     <div class="temporary_text">

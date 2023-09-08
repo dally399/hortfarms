@@ -1,13 +1,15 @@
 .blog-container-top, .blog-container-bottom{
     display: flex;
-    background: #F1FFE5;
+    
     justify-content: center;
     gap: 1rem;
     padding-left: 4rem;
     padding-right: 4rem;
     padding-top: 4rem;
 }
-
+.blog-header{ 
+  background: #F1FFE5;
+}
 .blog-container-bottom{
   padding-top: 1rem;
   padding-bottom: 4rem;

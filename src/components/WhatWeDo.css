@@ -74,10 +74,8 @@ background: linear-gradient(to left, #38ef7d, #11998e);
   text-align: center;
   gap: 10px;
   
-  background: #11998e; 
-background: -webkit-linear-gradient(to left, #38ef7d, #11998e); 
-background: linear-gradient(to left, #38ef7d, #11998e); 
-
+  background: var(--green700); 
+  
   color: #e8e8e8;
   padding-top: 20px;
   line-height: 1.5;
@@ -88,7 +86,7 @@ background: linear-gradient(to left, #38ef7d, #11998e);
 }
 
 .card-exp .content-exp .heading {
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 700;
   text-align: center;
 }

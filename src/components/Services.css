@@ -11,17 +11,6 @@
   position: relative;
 }
 
-.container h1::after {
-  content: '';
-  background: #303ef7;
-  width: 100px;
-  height: 5px;
-  position: absolute;
-  bottom: -5px;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
 .row {
   display: grid;
   grid-template-columns: repeat(4, 1fr);

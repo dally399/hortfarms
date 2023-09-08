@@ -3,27 +3,45 @@
     padding-left: 4rem;
     padding-right: 4rem;
     display: grid;
+    /* background: gold; */
     gap: 1.5rem;
     grid-template-columns: repeat(2 ,1fr);
 }
 
 .banner-left{
-    background: gold;
+    /* background: gold; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .banner-right{
-    padding-left: 10px;
+    /* padding-left: 10px; */
+    /* background: gold; */
+    display: inline-block;
+    padding: 100px ;
+    /* padding: 30px; */
+
 }
 
 .banner-content{
-    display: inline-block;
+    display: block;
+    
 }
 
 .banner-title{
     font-size: 30px;
     font-weight: 400;
+    /* font-family: 'Quicksand', sans-serif; */
 }
+ 
+.banner-p1{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+/* .banner-p2{
+    font-weight: 200;
+    font-size: 19px;
+} */
 

@@ -7,6 +7,9 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
+//other imports
+import product1 from '../assets/product-fuerte.jpeg'
+
 function Products() {
   return (
     <div className="main-body-container">
@@ -20,7 +23,7 @@ function Products() {
         <span className='hass-title'>Hass Avocados</span>
         <span className='hass-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet repellat molestias suscipit culpa hic maxime amet non excepturi saepe officia rerum sequi, earum explicabo laboriosam assumenda dolorem labore eum.</span>
       </div>
-
+ 
       <div className="content-left-mid">
         <span className='fuerte-title'>Fuerte Avocados</span>
         <span className='fuerte-container'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nihil iusto odit facere, perferendis cum id? Nihil ducimus excepturi enim molestias eligendi? Porro, assumenda! Atque suscipit debitis non eos modi.</span>
@@ -47,7 +50,7 @@ function Products() {
         modules={[Autoplay, Pagination, Navigation]}
         className="mySwiper"
       >
-        <SwiperSlide>Slide 1</SwiperSlide>
+        <SwiperSlide><img src={product1} alt="" /></SwiperSlide>
         <SwiperSlide>Slide 2</SwiperSlide>
         <SwiperSlide>Slide 3</SwiperSlide>
         <SwiperSlide>Slide 4</SwiperSlide>

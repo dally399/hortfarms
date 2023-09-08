@@ -16,8 +16,9 @@
 
 .content-left{      
     object-fit: contain;
-    background: url("../assets/hass-avocado.jpeg") no-repeat;
+    background: url("../assets/product-hass.jpeg") no-repeat;
     width: 100%;
+    /* background: gold; */
     aspect-ratio: 1/1;
 }
     
@@ -30,8 +31,9 @@
 
 .content-right-mid{
     object-fit: contain;
-    background: url("../assets/hass-avocado.jpeg") no-repeat;
+    background: url("../assets/product-fuerte.jpeg") no-repeat;
     width: 100%;
+    /* background: gold; */
     aspect-ratio: 1/1;
 }
 
@@ -48,20 +50,20 @@
     color: var(--green700);
 }
 .hass-title, .fuerte-title{
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: 400;
     padding-top: 20px;
 }
 
-.hass-content, .fuerte-container{
-    font-size: 1.1rem;
-    font-weight: 300;
-}
+/* .hass-content, .fuerte-container{
+     font-weight: 200;
+    font-size: 19px;
+} */
 
 .description-heading{
     margin-top: 1rem;
-    font-size: 1.5rem;
-    font-weight: 300;
+    font-size: 18px;
+    /* font-weight: 300; */
     text-align: center;
     padding-left: 4rem;
     padding-right: 4rem;
@@ -90,6 +92,10 @@
     object-fit: cover;
   }
 
+  .swiperjs-container{
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
   
 
 
