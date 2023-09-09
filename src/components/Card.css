@@ -6,7 +6,7 @@
     padding-left: 4rem;
     padding-right: 4rem;
     align-items: center;
-    background: #F1FFE5;
+    /* background: #F1FFE5; */
     height: auto;
 }
 
@@ -93,4 +93,64 @@
     color: var(--green700);
   }
 
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* background: gold; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  /* xs */
+  @media screen and (max-width: 475px){
+    .card-container{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+        
+      .card-contents{
+       padding: 5px;
+      }
+    }
+  }
+
+  /* sm */
+@media screen and (max-width: 640px){
+    
+}
+
+/* md */
+@media screen and (max-width: 768px){
+    
+}
+
+/* lg */
+@media screen and (max-width: 1024px){
+    
+}
+
+/* xl */
+@media screen and (max-width: 1280px){
+    
+}
+
+/* 2xl */
+@media screen and (max-width: 1536px){
+    
+}
    

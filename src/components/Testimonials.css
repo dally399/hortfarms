@@ -4,10 +4,14 @@
   
   main h1 {
     text-align: center;
-    font-size: 45px;
-    font-weight: 500;
-    color: var(--black);
+    /* font-size: 45px; */
+    /* font-weight: 500; */
+    /* color: var(--black); */
     margin-bottom: 2rem;
+
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--green700);
   }
 
   .main-body{

@@ -1,6 +1,8 @@
 import React from 'react'
 import './Blog.css'
 
+import blog1 from '../assets/avocado-img2.jpg'
+
 function Blog() {
   return ( 
    <div className="blog-header">
@@ -10,8 +12,8 @@ function Blog() {
     <div className="blog-container-top">      
 
     <div class="card_blog">
-    <div class="temporary_text">
-        Place image here
+    <div class="temporary_text"> 
+        <img src={blog1} alt="" />
     </div>
       <div class="card_blog_content">
     <span class="card_blog_title">This is a Title</span>
@@ -23,7 +25,7 @@ function Blog() {
     
       <div class="card_blog">
     <div class="temporary_text">
-        Place image here
+        <img src={blog1} alt="" />
     </div>
       <div class="card_blog_content">
     <span class="card_blog_title">This is a Title</span>
@@ -35,7 +37,7 @@ function Blog() {
 
       <div class="card_blog">
     <div class="temporary_text">
-        Place image here
+        <img src={blog1} alt="" />
     </div>
       <div class="card_blog_content">
     <span class="card_blog_title">This is a Title</span>
@@ -52,7 +54,7 @@ function Blog() {
       <div className="blog-container-bottom">
       <div class="card_blog">
     <div class="temporary_text">
-        Place image here
+        <img src={blog1} alt="" />
     </div>
       <div class="card_blog_content">
     <span class="card_blog_title">This is a Title</span>
@@ -64,7 +66,7 @@ function Blog() {
 
       <div class="card_blog">
     <div class="temporary_text">
-        Place image here
+        <img src={blog1} alt="" />
     </div>
       <div class="card_blog_content">
     <span class="card_blog_title">This is a Title</span>
@@ -76,7 +78,7 @@ function Blog() {
 
       <div class="card_blog">
     <div class="temporary_text">
-        Place image here
+        <img src={blog1} alt="" />
     </div>
       <div class="card_blog_content">
     <span class="card_blog_title">This is a Title</span>

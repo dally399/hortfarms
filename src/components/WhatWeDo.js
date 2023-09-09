@@ -19,7 +19,7 @@ function WhatWeDo() {
     </p> */}
   </div>
 </div>
-</div>
+</div> 
 
 <div class="card-container-exp">
       <div class="card-exp">

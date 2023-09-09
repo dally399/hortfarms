@@ -2,10 +2,8 @@
     background-size: 100%;
     background: url(../assets/alternative-906138_1920.jpg)  no-repeat left;
     background-color: #fdfdfd;
-    object-fit: cover;
-    /* aspect-ratio: 16/6;     */
+    background-size: cover;
     overflow: hidden;
-    /* margin-bottom: 3rem; */
     padding: 100px 0;
 }
 
