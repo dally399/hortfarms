@@ -17,9 +17,18 @@ import hass7 from '../assets/images (1).jpeg'
 import hass8 from '../assets/images.jpeg'
 import hass9 from '../assets/licensed-image.jpeg'
 
+import { AiOutlineArrowRight } from 'react-icons/ai';
+
 export default function Slider() {
   return (
-    <div className="swiper-container-body">   
+    <div className="swiper-container-body">
+      <span className='slider-title'>Featured Products</span> 
+      <span className='slider-description'>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, rerum veritatis, asperiores repudiandae pariatur reprehenderit enim numquam molestias optio dolores vel veniam et id! Et, architecto! Dicta dolorum eaque repudiandae aperiam, repellendus vel ut corporis dolor assumenda, deserunt suscipit error.
+        </span>  
+        <span>
+          <button className='Btn'>See more in gallery <AiOutlineArrowRight/></button>
+        </span>
     <>
       <Swiper
         effect={'coverflow'}

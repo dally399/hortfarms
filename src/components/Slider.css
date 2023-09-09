@@ -22,6 +22,23 @@
   margin-top: 7rem;
 }
 
+.slider-title{
+  font-size: 2rem;
+    font-weight: 600;
+    color: var(--green700);
+    /* background: gold; */
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.slider-description{
+  display: flex;
+    text-align: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
  /* xs */
  @media screen and (max-width: 475px){
     

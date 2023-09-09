@@ -25,7 +25,7 @@ function Achievements() {
     <div className="item item--3">
     <MdAttachMoney/>
       <span className="quantity">$1.5 M</span>
-      <span className="text text--3">Components</span>
+      <span className="text text--3">Total Earnings</span>
     </div>
     <div className="item item--4">
       <AiOutlineTrophy/>
