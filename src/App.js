@@ -26,20 +26,7 @@ function App() {
         <Route exact path='/blog' element={<Blog/>}></Route>
         <Route exact path='/contact' element={<Contact/>}></Route>
       </Routes>
-    </BrowserRouter>
-    
-  
-    <BrowserRouter>
-    <Footer/>   
-      <Routes>
-
-        <Route exact path='/about' element={<AboutUs/>}></Route>
-        <Route exact path='/services' element={<Services/>}></Route>
-        <Route exact path='/policy' element={<Gallery/>}></Route>
-        <Route exact path='/faq' element={<Products/>}></Route>
-        <Route exact path='/terms' element={<Blog/>}></Route>
-        <Route exact path='/contact' element={<Contact/>}></Route>
-      </Routes>
+      <Footer/>
     </BrowserRouter>
     
     </div>
