@@ -17,29 +17,29 @@ function Footer() {
                 <div class="footer_column">
                     <h4>Company</h4>
                     <ul>
-                        <Link to='/about' ><li>About us</li></Link>
-                        <Link to='/services' ><li>Our Services</li></Link>
-                        <Link to='/policy' ><li>Privacy Policy</li></Link>
-                        <Link to='/contact' ><li>Contact us</li></Link>
+                        <Link className='footer-link' to='/about' ><li>About us</li></Link>
+                        <Link className='footer-link' to='/services' ><li>Our Services</li></Link>
+                        <Link className='footer-link' to='/policy' ><li>Privacy Policy</li></Link>
+                        <Link className='footer-link' to='/contact' ><li>Contact us</li></Link>
                     </ul>
                 </div>
                 <div class="footer_column">
                     <h4>Get Help</h4>
                     <ul>
-                       <Link to='/faq' ><li>FAQ</li></Link> 
-                       <Link to='/options' ><li>Payment Options</li></Link> 
-                       <Link to='/terms' ><li>Terms and Conditions</li></Link>
-                       <Link to='/cookies' ><li>Cookies</li></Link> 
+                       <Link className='footer-link' to='/faq' ><li>FAQ</li></Link> 
+                       <Link className='footer-link' to='/options' ><li>Payment Options</li></Link> 
+                       <Link className='footer-link' to='/terms' ><li>Terms and Conditions</li></Link>
+                       <Link className='footer-link' to='/cookies' ><li>Cookies</li></Link> 
                     </ul>
                 </div>
 
                 <div class="footer_column">
                     <h4>Follow us</h4>
                     <div class="social_links">
-                        <Link to=''><BsFacebook className='icon-footer'/></Link>
-                        <Link to='' ><BsWhatsapp className='icon-footer'/></Link>
-                        <Link to='' ><BsInstagram className='icon-footer'/></Link>
-                        <Link to='' ><AiFillYoutube className='icon-footer'/></Link>
+                        <Link className='footer-link' to=''><BsFacebook className='icon-footer'/></Link>
+                        <Link className='footer-link' to='' ><BsWhatsapp className='icon-footer'/></Link>
+                        <Link className='footer-link' to='' ><BsInstagram className='icon-footer'/></Link>
+                        <Link className='footer-link' to='' ><AiFillYoutube className='icon-footer'/></Link>
                     </div>
                 </div>
             </div>

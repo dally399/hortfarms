@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Achievements.css'
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { BiTimeFive } from "react-icons/bi";
 import { MdAttachMoney } from "react-icons/md";
@@ -7,10 +10,16 @@ import { AiOutlineTrophy } from "react-icons/ai";
 import { BsGraphUpArrow } from "react-icons/bs";
 
 function Achievements() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="achieve-title">
-      <span>Our Achievements</span>
-    <div className="container-achievements">
+      <span data-aos="fade-up"
+     data-aos-duration="600">Our Achievements</span>
+    <div className="container-achievements" data-aos="fade-up"
+     data-aos-duration="3000">
       <div className="card-items">
     <div className="item item--1">
       <BiTimeFive/>

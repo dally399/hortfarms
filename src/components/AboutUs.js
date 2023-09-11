@@ -21,8 +21,8 @@ function AboutUs() {
           <li>We value Occupational health and safety of our employees</li>
           <li></li>
          </ul>
-         <span className="text">Vision: <br /> To be the leading producer and supplier of choice for quality organic Kenyan fresh fruits mainly avocados, mangoes and passion fruits.</span> <br />
-         <span className="text">Mission: <br /> Our mission is to establish long term relationships with our trading partners, through provision of a wide range of premium quality products that meet global food safety standards, consistently and in a timely manner.</span>
+         <span className="text">Vision: <br /> To be a premier supplier of quality avocados globally</span> <br />
+         <span className="text">Mission: <br /> To provide quality products and services that exceeds specifications and expectations of customers and business patners at all times.</span>
          <span></span>
         {/* <div className="skills">
           <span>Web Design</span>

@@ -3,7 +3,8 @@ import './Hero.css'
 import 'animate.css';
 
 function Hero() {
-  return (
+   return (
+    
     <div className="background-container">
       <div className="left-side">
         
@@ -11,7 +12,7 @@ function Hero() {
         <span className='h-mid animate__animated animate__bounceInDown'>Experience The Real</span> <br />
         <span className='h-below animate__animated animate__bounceInDown'>Agriculture</span>
 
-        <button className='Btn-hero'>Read More</button>
+        <button className='Btn-hero animate__animated animate__bounceInDown'  >Read More</button>
          
       </div>     
     </div>

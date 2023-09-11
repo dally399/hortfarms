@@ -16,7 +16,7 @@
 
 .content-left{      
     object-fit: contain;
-    background: url("../assets/product-hass.jpeg") no-repeat;
+    background: no-repeat;
     width: 100%;
     background-size: cover;
     /* background: gold; */
@@ -32,10 +32,9 @@
 
 .content-right-mid{
     object-fit: contain;
-    background: url("../assets/product-fuerte.jpeg") no-repeat;
+    /* background: url("../assets/product-fuerte.jpeg") no-repeat; */
     width: 100%;
     background-size: cover;
-    /* background: gold; */
     aspect-ratio: 1/1;
 }
 

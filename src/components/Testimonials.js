@@ -1,7 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState,useEffect } from 'react';
 import './Testimonials.css'
 
+
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function Testimonials() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   const testimonials = [
     {
         name: 'Zen',
@@ -25,7 +33,8 @@ function Testimonials() {
         name: 'Sarah',
         role: 'Zara Inc.',
         description: 'Sarah Dam is an American internet entrepreneur and media proprietor, and investor. She is the founder of the multi-national technology company Zara.',
-        image: 'https://github.com/ecemgo/ecemgo/assets/13468728/55116c98-5f9a-4b0a-9fdb-4911b52d5ef3'
+        // image: 'https://github.com/ecemgo/ecemgo/assets/13468728/55116c98-5f9a-4b0a-9fdb-4911b52d5ef3'
+        image: '../assets/avocado-fruit.jpg'
       }
   ];
 
@@ -38,8 +47,10 @@ function Testimonials() {
   return (
     <div className="main-body">
     <main>
-      <h1>Testimonials</h1>
-      <div className="testimonial">
+      <h1 data-aos="fade-up"
+     data-aos-duration="600">Testimonials</h1>
+      <div className="testimonial" data-aos="fade-up"
+     data-aos-duration="3000">
         <div className="slide-row" id="slide" style={{ transform: `translateX(-${activeSlide * 800}px)` }}>
           {testimonials.map((testimonial, index) => (
             <div className="slide-col" key={index}>

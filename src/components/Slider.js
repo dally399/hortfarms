@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
@@ -19,18 +19,31 @@ import hass9 from '../assets/licensed-image.jpeg'
 
 import { AiOutlineArrowRight } from 'react-icons/ai';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 export default function Slider() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="swiper-container-body">
-      <span className='slider-title'>Featured Products</span> 
-      <span className='slider-description'>
+      <span className='slider-title' data-aos="fade-up"
+     data-aos-duration="300">Featured Products</span> 
+      <span className='slider-description' data-aos="fade-up"
+     data-aos-duration="3000">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, rerum veritatis, asperiores repudiandae pariatur reprehenderit enim numquam molestias optio dolores vel veniam et id! Et, architecto! Dicta dolorum eaque repudiandae aperiam, repellendus vel ut corporis dolor assumenda, deserunt suscipit error.
         </span>  
-        <span>
-          <button className='Btn'>See more in gallery <AiOutlineArrowRight/></button>
+        <span className='slider-btn' data-aos="fade-up"
+     data-aos-duration="3000">
+          <button className='Btn'>See more on Gallery <AiOutlineArrowRight className='icon-slider'/></button>
         </span>
     <>
-      <Swiper
+      <Swiper data-aos="fade-left"
+     data-aos-offset="400"
+     data-aos-duration="600"
+     
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}

@@ -11,7 +11,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 import product1 from '../assets/product-fuerte.jpeg'
 import hass from '../assets/product-hass.jpeg'
 import pineapples from '../assets/pinapple.jpg'
-import mango from '../assets/Mango'
+import mango from '../assets/Mango.jpg'
 import fuerte from '../assets/product-fuerte.jpeg'
 
 function Products() {

@@ -1,5 +1,8 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Card.css'
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { GiWheat } from "react-icons/gi";
 import { GiFarmTractor } from "react-icons/gi";
@@ -7,8 +10,23 @@ import { GiFruitBowl } from "react-icons/gi";
 import { GiBarn } from "react-icons/gi";
 
 function Card() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    <div className="card-container">
+    <div className="card-hort" data-aos="zoom-out-up" data-aos-offset="200"
+    data-aos-delay="70"
+    data-aos-duration="1000"
+    data-aos-easing="ease-in-out"
+    data-aos-mirror="true"
+    data-aos-once="false">
+
+      <span className="description">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, omnis veritatis repellat magnam vitae, aperiam sit odio sunt magni iusto explicabo. Laboriosam commodi soluta nostrum magnam aut perspiciatis illum aliquid, velit culpa, cupiditate ex dolore exercitationem reiciendis ipsum inventore praesentium?
+        </span>
+      
+    <div className="card-container" >
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
@@ -66,6 +84,8 @@ function Card() {
         </div>
       </div>
     </div></div>
+    </div>
+
     </div>
   )
 }

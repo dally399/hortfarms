@@ -4,14 +4,8 @@
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-
-    /* background: #00bf8f; 
-    background: -webkit-linear-gradient(to right, #001510, #00bf8f);  
-    background: linear-gradient(to right, #001510, #00bf8f); */
-
-    background: var(--green700);
+    background: #D6AD60;
     padding: 20px;
-    /* border-radius: 10px; */
   }
   
   .title {
@@ -26,7 +20,7 @@
     line-height: 1.5rem;
     font-size: 1rem;
     margin-top: 1rem;
-    color: rgb(209 213 219);
+    color: var(--black);
   }
   
   .form div {
@@ -40,20 +34,19 @@
     outline: none;
     line-height: 1.5rem;
     font-size: 0.875rem;
-    color: rgb(255 255 255 );
     padding: 0.5rem 0.875rem;
-    background-color: rgb(255 255 255 / 0.05);
+    background: white;
     border: 1px solid rgba(253, 253, 253, 0.363);
     border-radius: 0.375rem;
     flex: 1 1 auto;
   }
   
   .form div input::placeholder {
-    color: rgb(216, 212, 212);
+    color: var(--black);
   }
   
   .form div input:focus {
-    border: 1px solid rgb(99 102 241);
+    /* border: 1px solid rgb(99 102 241); */
   }
   
   .form div button {
@@ -62,7 +55,8 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
     padding: 0.625rem 0.875rem;
-    background-color: rgb(99 102 241);
+    background: var(--green700);
+    /* background-color: rgb(99 102 241); */
     border-radius: 0.375rem;
     border: none;
     outline: none;

@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom'
 import './Navbar.css' 
 import logo from '../assets/logo5.png'
 
-import { AiFillCloseCircle } from "react-icons/ai";
-import { TbGridDots } from "react-icons/tb";
+// import { AiFillCloseCircle } from "react-icons/ai";
+// import { TbGridDots } from "react-icons/tb";
 
 function Navbar() {
 
@@ -49,13 +49,13 @@ function Navbar() {
         </button>
 
         <div onClick={removeNavbar} className="closeNavbar">
-          <AiFillCloseCircle className="icon"/>
+          {/* <AiFillCloseCircle className="icon"/> */}
         </div>
 
       </div>
 
       <div onClick={showNav} className="toggleNavbar">
-        <TbGridDots className="icon"/>
+        {/* <TbGridDots className="icon"/> */}
       </div>
     </div>
   )
