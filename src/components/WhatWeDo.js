@@ -31,8 +31,9 @@ function WhatWeDo() {
          <p>Sourcing of Fruits and Vegetables</p>
        </div>
   <div class="content-exp">
-    <p class="heading">Sourcing and Export</p>
-    <span className='cont-exp'>Sourcing and export of Hass and Fuerte Acocados</span>
+    {/* <p class="heading">Sourcing and Export</p> */}
+    <span className='cont-exp'>We are a sourcing firm that assists companies in the United States, Europe, and other countries in obtaining high-quality fruits and vegetables from Kenya. We collaborate with a network of reputable farmers and exporters to ensure that our clients receive the best products at the most cheap pricing.
+</span>
   </div>
 </div>
 </div> 
@@ -45,11 +46,8 @@ function WhatWeDo() {
          <p>Export of Fruits and Vegetables</p>
        </div>
   <div class="content-exp">
-    <span className='cont-exp'>We are exporter of best quality of Avocados
-worldwide
-We, at HortFarms Ltd specialise in high quality fresh
-Avocado. Each fruit is handpicked and passes
-through quality control before making into final export.</span>
+    <span className='cont-exp'>We at HortFarms Ltd specialize in the international export of fruits and vegetables. We have over 20 years of experience and a proven track record of achievement. We collaborate with a network of growers and exporters to ensure that we deliver high-quality items to our consumers.
+</span>
   </div>
 </div>
 </div>
@@ -62,8 +60,11 @@ through quality control before making into final export.</span>
          <p>Work with Contracted Farmers</p>
        </div>
   <div class="content-exp">
-    <p class="heading">Work with Contracted Farmers</p>
-    <span className='cont-exp'> Work with Contracted Farmers who are gap certified</span>
+    {/* <p class="heading">Work with Contracted Farmers</p> */}
+    <span className='cont-exp'>From small-scale producers to large-scale commercial operations, we collaborate with farmers of all sizes. We also work with a wide range of crops, such as fruits and vegetables.
+
+Our objective is to assist contracted farmers in increasing their production and profitability. We are dedicated to offering the finest possible support and services to our clients.
+</span>
   </div>
 </div>
 </div>

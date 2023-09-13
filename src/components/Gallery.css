@@ -21,4 +21,42 @@
     filter: grayscale(70%);
 }
 
+@media screen and (max-width: 475px){
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1vh;
+        margin-inline: auto;
+        max-width: 80rem;
+        background:  #F1FFE5;
+        padding: 1vh;
+    }      
+  }
+  
+    /* sm */
+  @media screen and (max-width: 640px){
+      
+  }
+  
+  /* md */
+  @media screen and (max-width: 768px){
+      
+  }
+  
+  /* lg */
+  @media screen and (max-width: 1024px){
+      
+  }
+  
+  /* xl */
+  @media screen and (max-width: 1280px){
+      
+  }
+  
+  /* 2xl */
+  @media screen and (max-width: 1536px){
+      
+  }
+     
+
         

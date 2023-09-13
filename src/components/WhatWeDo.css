@@ -108,11 +108,21 @@
  @media screen and (max-width: 475px){
   .title-main{
    display: flex;
+   padding: 0;
+   margin-top: 3rem;
    flex-direction: column;
+   padding-left: 10px;
+   padding-right: 10px;
 
-   .main-container-exp{
+  .main-container-exp{
     display: flex;
    flex-direction: column;
+
+   .front-content > p{
+    font-size: 20px;    
+    padding-left: 30px;
+    padding-right: 30px;
+   }
    }
   }
     

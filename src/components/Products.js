@@ -21,7 +21,7 @@ function Products() {
       <span className='description-heading'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam delectus sint illum labore sit error placeat nostrum nemo? Laboriosam, iure.</span>
     <div className="body-container">
       <div className="content-left">
-          <img src={hass} alt="" />
+          <img src={hass} alt="" loading='lazy' />
       </div>
       <div className="content-right">
         <span className='hass-title'>Hass Avocados</span>
@@ -34,7 +34,7 @@ function Products() {
       </div>
 
       <div className="content-right-mid">
-        <img src={fuerte} alt="" />
+        <img src={fuerte} alt="" loading='lazy' />
       </div>
 
       <div className="content-left">

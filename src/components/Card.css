@@ -15,10 +15,10 @@
 }
 
 .description{
-  display: flex;
   color: black;
-  justify-content: center;
   text-align: center;
+  font-weight: 500;
+  font-size: 26px;
   /* background: gold; */
 }
 
@@ -129,12 +129,26 @@
 
   /* xs */
   @media screen and (max-width: 475px){
+    .card-hort{
+      padding: 0;
+      position: relative;
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    .description{
+      text-align: justify;
+      font-size: 7px;
+      position: relative;
+      padding: 0;
+      /* display: flex; */
+    }
     .card-container{
       display: flex;
       flex-direction: column;
       justify-content: center;
       align-items: center;
-        
+            
       .card-contents{
        padding: 5px;
       }

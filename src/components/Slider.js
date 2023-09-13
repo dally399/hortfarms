@@ -33,7 +33,8 @@ export default function Slider() {
      data-aos-duration="300">Featured Products</span> 
       <span className='slider-description' data-aos="fade-up"
      data-aos-duration="3000">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est, rerum veritatis, asperiores repudiandae pariatur reprehenderit enim numquam molestias optio dolores vel veniam et id! Et, architecto! Dicta dolorum eaque repudiandae aperiam, repellendus vel ut corporis dolor assumenda, deserunt suscipit error.
+      Our featured products are the most delicious and fresh fruits and vegetables available. We carefully choose them from the best farms in the country and deliver them to your door so you can enjoy them at their peak ripeness.
+
         </span>  
         <span className='slider-btn' data-aos="fade-up"
      data-aos-duration="3000">

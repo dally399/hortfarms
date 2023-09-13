@@ -19,7 +19,7 @@
     object-fit: contain;
     background: no-repeat;
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     /* background: gold; */
     aspect-ratio: 1/1;
 }
@@ -35,7 +35,7 @@
     object-fit: contain;
     /* background: url("../assets/product-fuerte.jpeg") no-repeat; */
     width: 100%;
-    background-size: cover;
+    /* background-size: cover; */
     aspect-ratio: 1/1;
 }
 
