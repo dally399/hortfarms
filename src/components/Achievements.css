@@ -99,16 +99,20 @@
 
   /* xs */
   @media screen and (max-width: 475px){
+   
     .card-items{
      display: grid;
      grid-template-columns: repeat(2, 1fr);
+     padding: 0;
     }
 
     .card-items .item {
-     padding: 10px;
-    }
-       
-  }
+     padding: 12px;
+     
+     }
+
+
+}
 
   /* sm */
 @media screen and (max-width: 640px){

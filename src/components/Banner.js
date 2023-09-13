@@ -4,7 +4,7 @@ import './Banner.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import banner_img1 from '../assets/avocado-fruit.jpg'
+import banner_img1 from '../assets/basket.jpg'
 import banner_img2 from '../assets/package-avocado.png'
 
 function Banner() {
