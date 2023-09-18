@@ -34,13 +34,29 @@
   }
   
     /* sm */
-  @media screen and (max-width: 640px){
-      
+  @media screen and (476px <= width <= 640px){
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1vh;
+        margin-inline: auto;
+        max-width: 80rem;
+        background:  #F1FFE5;
+        padding: 1vh;
+    }     
   }
   
   /* md */
-  @media screen and (max-width: 768px){
-      
+  @media screen and (641px <= width <= 768px){
+    .gallery{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1vh;
+        margin-inline: auto;
+        max-width: 80rem;
+        background:  #F1FFE5;
+        padding: 1vh;
+    }     
   }
   
   /* lg */

@@ -1,3 +1,7 @@
+.main-container{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
 
 .contact-container {
   display: flex;
@@ -119,8 +123,9 @@
 .locate{
   margin-top: 7rem;
   margin-bottom: 3rem;
-  font-size: 35px;
-  font-weight: 500;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--green700);
 }
 
 .icon-us{
@@ -139,3 +144,61 @@
     padding: 96px 48px;
   }
 }
+
+
+/* xs */
+@media screen and (max-width: 475px){
+  .main-container{
+    padding: 0;
+  }
+    .contact-container{
+      padding: 0;
+      position: relative;
+
+      .contact-form{
+        margin-left: 0;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+
+      .contact-info{
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1rem;
+
+        .contacts{
+          padding: 0;
+        }
+      }
+    }
+}
+
+  /* sm */
+@media screen and (max-width: 640px){
+  
+}
+
+/* md */
+@media screen and (max-width: 768px){
+  
+}
+
+/* lg */
+@media screen and (max-width: 1024px){
+  
+}
+
+/* xl */
+@media screen and (max-width: 1280px){
+  
+}
+
+/* 2xl */
+@media screen and (max-width: 1536px){
+  
+}
+

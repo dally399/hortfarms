@@ -4,6 +4,7 @@
     /* background-color: #0F2027; */
     background: #3E363F;
     margin: auto;
+    scroll-behavior: smooth;
 }
 
 ul {
