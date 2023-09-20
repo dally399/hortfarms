@@ -1,11 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './ContactUs.css'
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import { CiLocationOn } from "react-icons/ci";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
 
 function ContactUs() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="main-container">
     <section className="contact-container">
@@ -55,7 +62,7 @@ function ContactUs() {
       </div>
     </section>
 
-<div className="map-section">
+<div className="map-section" data-aos="zoom-in-up" data-aos-duration="1000">
   <span className='locate'>Our Location</span>
 
  <iframe

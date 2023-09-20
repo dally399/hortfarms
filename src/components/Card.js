@@ -23,9 +23,9 @@ function Card() {
     data-aos-once="false">
 
       <div className="description">
-        <span>
+        <p>
         HortFarms Ltd is at the forefront of Kenya's commercial fruit business, focusing in the cultivation and exportation of high-quality organic and conventional fresh fruits. Our steadfast dedication to innovation, freshness, diversity, and the continuous pursuit of perfection pushes us to get farm-fresh fruit to store shelves and, ultimately, to consumers' dinners.
-        </span>
+        </p>
         </div>
       
     <div className="card-container" >

@@ -1,10 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './AboutUs.css'
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 function AboutUs() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="about-section">
-      <div className="inner-container">
+      <div className="inner-container" data-aos="fade-left"  data-aos-offset="500"
+     data-aos-easing="ease-in-sine">
         <h1>About Us</h1>
         <p className="text">
         HortFarms Ltd is a leading commercial grower and exporter of premium organic and conventional fresh fruits from Kenya. We have a continuous quest for innovation, freshness, diversity, and excellence to bring produce from the farm to the shelves and ultimately to the consumer tables.

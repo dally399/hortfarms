@@ -1,54 +1,65 @@
 import React from 'react';
 import './Services.css'; 
 
+import { GiWheat } from "react-icons/gi";
+import { GiFarmTractor } from "react-icons/gi";
+import { GiHammerSickle } from "react-icons/gi";
+import { GiBarn } from "react-icons/gi";
+import { TbTruckDelivery } from "react-icons/tb";
+import { FaMapLocationDot } from "react-icons/fa6";
+
+
 function Services() {
   return (
     <div className="container">
       <h1>Our Services</h1>
+      <div className="service-heading">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic fugit tempora cupiditate numquam, modi unde quisquam obcaecati alias eos ullam minima ea necessitatibus ducimus, consequatur perferendis earum, nostrum dolores!
+      </div>
       <div className="row">
         <div className="service">
-          <i className="fas fa-laptop-code"></i>
-          <h2>Web Design</h2>
+        <GiWheat className='icon-card'/>
+          <h2>Agricultural Products</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             quae?
           </p>
         </div>
         <div className="service">
-          <i className="fas fa-chart-line"></i>
-          <h2>Marketing</h2>
+        <GiFarmTractor className='icon-card'/>
+          <h2>Modern Techniques</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             quae?
           </p>
         </div>
         <div className="service">
-          <i className="fab fa-sketch"></i>
-          <h2>Graphics</h2>
+        <GiBarn className='icon-card'/>
+          <h2>Farm Supplies</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             quae?
           </p>
         </div>
         <div className="service">
-          <i className="fas fa-database"></i>
-          <h2>Data Analysis</h2>
+        <GiHammerSickle className='icon-card'/>
+          <h2>Expert Farmer</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             quae?
           </p>
         </div>
         <div className="service">
-          <i className="fas fa-mobile-alt"></i>
-          <h2>App Development</h2>
+          <FaMapLocationDot className='icon-card'/>
+          <h2>Source Fresh Fruits and Vegetables</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             quae?
           </p>
         </div>
         <div className="service">
-          <i className="fas fa-file-invoice"></i>
-          <h2>Accounting</h2>
+        <TbTruckDelivery className='icon-card'/>
+          <h2>Export Fresh Fruits and Vegetables</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             quae?
