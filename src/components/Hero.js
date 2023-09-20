@@ -1,6 +1,7 @@
 import React from 'react'
 import './Hero.css'
 import 'animate.css';
+import {Link} from 'react-router-dom'
 
 function Hero() {
    return (
@@ -12,7 +13,7 @@ function Hero() {
         <span className='h-mid animate__animated animate__bounceInDown'>Experience The Real</span> <br />
         <span className='h-below animate__animated animate__bounceInDown'>Agriculture</span>
 
-        <button className='Btn-hero animate__animated animate__bounceInDown'  >Read More</button>
+       <Link className="link" to='/about'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Read More</button> </Link> 
          
       </div>     
     </div>

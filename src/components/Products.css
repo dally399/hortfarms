@@ -5,23 +5,40 @@
     align-items: center;
     background-size: cover;
     margin-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .body-container{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    padding-left: 4rem;
-    padding-right: 4rem;
     margin-top: 4rem;
 }
 
 .content-left{      
     object-fit: contain;
     background: no-repeat;
-    width: 100%;
-    /* background-size: cover; */
-    /* background: gold; */
+    width: 450px;
+    padding-left: 5rem;
+    height: auto;
     aspect-ratio: 1/1;
+}
+
+.content-right-mid{
+    object-fit: contain;
+    background: no-repeat;
+    width: 450px;
+    padding-left: 5rem;
+    height: auto;
+    aspect-ratio: 1/1;
+}
+
+.content-left >img{
+    max-width: 100%;
+}
+
+.content-right-mid >img{
+    max-width: 100%;
 }
     
 .content-right{
@@ -29,14 +46,6 @@
     flex-direction: column;
     align-items: flex-start;
     padding-left: 20px;
-}
-
-.content-right-mid{
-    object-fit: contain;
-    /* background: url("../assets/product-fuerte.jpeg") no-repeat; */
-    width: 100%;
-    /* background-size: cover; */
-    aspect-ratio: 1/1;
 }
 
 .content-left-mid{
@@ -57,15 +66,41 @@
     padding-top: 20px;
 }
 
+.hass-content, .fuerte-container{
+    font-weight: 500;
+  font-size: 15px;
+}
+
 .description-heading{
     margin-top: 1rem;
-    font-size: 18px;
-    /* font-weight: 300; */
     text-align: center;
     padding-left: 4rem;
     padding-right: 4rem;
+    font-weight: 500;
+  font-size: 16px;
 }
 
+.swiperjs-container{
+    /* background: gold; */
+    height: auto;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+  }
 
 /* xs */
 @media screen and (max-width: 475px){
@@ -312,52 +347,5 @@
     }
   }
   
-  /* 2xl */
-  @media screen and (1281px <= width <= 1536px){
-    .description-heading{
-        padding: 0;
-        text-align: justify;
-        padding-left: 10px;
-        padding-right: 10px;
-        font-size: 15px;
-    }
-    .body-container{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        justify-content: center;
-        align-items: center;
-        padding: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-
-        .content-left , .content-right-mid{
-            width: 250px;
-            height: auto;
-        }
-
-        .content-left >img{
-            max-width: 100%;
-        }
-        
-        .content-right-mid >img{
-            max-width: 100%;
-        }
-
-        .content-right, .content-left-mid{
-            padding: 0;
-            display: flex;
-
-            .hass-title, .fuerte-title{
-                font-size: 22px;
-                font-weight: 500;
-            }
-
-            .hass-content, .fuerte-container{
-                font-size: 15px;
-                text-align: justify;
-            }
-        }
-
-    }
-  }
+  
  

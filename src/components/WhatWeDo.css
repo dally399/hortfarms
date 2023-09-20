@@ -68,10 +68,10 @@
   text-align: center;
   gap: 10px;
   
-  /* background: var(--green700);  */
-  background: #D6AD60;
-  
-  color: #e8e8e8;
+  background: #E8FFE5; 
+  /* background: #D6AD60; */
+  color: black;
+  /* color: #e8e8e8; */
   padding-top: 20px;
   line-height: 1.5;
   border-radius: 5px;

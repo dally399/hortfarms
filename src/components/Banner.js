@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './Banner.css'
+import {Link} from 'react-router-dom'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -29,7 +30,7 @@ Avocado. Each fruit is handpicked and passes
 through quality control before making into final export.</p>
     
     
-<button className='Btn'>Read More</button>
+<Link className="link" to='/products'> <button className='Btn'>Read More</button> </Link>
       </span>
     </div>
 
