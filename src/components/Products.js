@@ -70,16 +70,16 @@ function Products() {
         modules={[EffectFade, Navigation, Pagination]}
         className="mySwiper"
       >
-        <SwiperSlide>
+        <SwiperSlide style={{height:"600px"}}>
           <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt=""/>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide style={{height:"600px"}}>
           <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide style={{height:"600px"}}>
           <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt=""/>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide style={{height:"600px"}}>
           <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt=""/>
         </SwiperSlide>
       </Swiper>
