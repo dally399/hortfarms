@@ -36,7 +36,7 @@ through quality control before making into final export.</p>
 
     <div className="banner-right">
       <span className='banner-title'  data-aos="zoom-in-right" data-aos-delay="500">HortFarms Ltd</span>
-      <span className='banner-content' data-aos="zoom-in-down" data-aos-delay="900">
+      <span className='banner-content' data-aos="zoom-in-down" data-aos-delay="800">
       <p  className='banner-p1'>
       Our continual growth has been instigated by a number of factors and initiatives and value which include;
  
@@ -55,7 +55,7 @@ through quality control before making into final export.</p>
 </span>
     </div>
 
-    <div className="banner-left" data-aos="zoom-in-up" data-aos-delay="900"  data-aos-duration="1200">
+    <div className="banner-left" data-aos="zoom-in-up" data-aos-delay="950"  data-aos-duration="1100">
         <img className='img2' src={banner_img2} alt="" />
     </div>
    </div>
