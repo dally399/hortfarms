@@ -21,58 +21,116 @@
 
 .inner-container h1{
     margin-bottom: 2rem;
-    font-size: 30px;
-    font-weight: 900;
+    color: var(--black);
+    font-size: 2rem;
+    font-weight: 600;
 }
 
-.text{
-    font-size: 13px;
+.text, .text-list{
+    font-size: 16px;
+    font-weight: 500;
     /* color: #545454; */
-    color: black;
+    color: var(--black);
     line-height: 30px;
-    text-align: justify;
+    text-align: start;
     margin-bottom: 10px;
 }
-/* 
+
 .skills{
     display: flex;
     margin-top: 1rem;
     justify-content: space-between;
     font-weight: 700;
-    font-size: 13px;
-} */
+    /* color: var(--green700); */
+    font-size: 16px;
+}
 
 /* xs */
 @media screen and (max-width: 475px){
-    .about-section{
-        padding: 0;
-        padding-left: 10px;
-        padding-right: 10px;
-        display: block;
-        align-items: center;
-        justify-content: center;
+        .about-section{
+            padding: 0;
+            padding-bottom: 3rem;
+        }
+
+        .inner-container{
+            padding: 0;
+            width: 100%; 
+            padding-top: 2rem;           
+        }
 
        .inner-container h1{
         display: flex;
-        /* background: gold; */
-        width: 330px;
-        justify-content: center;
-     
-       }  
+        justify-content: center;     
+       } 
        
-       
+       .text-list{
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 100%;
+        text-align: start;
+       }
+
        .text{
-        display: flex;
-        /* background: gold; */
-        width: 330px;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
         justify-content: center;
-       }  
-    }
+       } 
+       
+       .skills{
+        display: flex;
+        margin-top: 1rem;
+        padding: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+        justify-content: space-between;
+       }
+    
   }
   
     /* sm */
-  @media screen and (max-width: 640px){
-    
+  @media screen and (475px <= width <= 640px){
+    .about-section{
+        padding: 0;
+        padding-bottom: 3rem;
+    }
+
+    .inner-container{
+        padding: 0;
+        width: 100%; 
+        padding-top: 2rem;           
+    }
+
+   .inner-container h1{
+    display: flex;
+    justify-content: center;     
+   } 
+   
+   .text-list{
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    text-align: start;
+   }
+
+   .text{
+    padding: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    justify-content: center;
+   } 
+   
+   .skills{
+    display: flex;
+    margin-top: 1rem;
+    padding: 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: space-between;
+   }
+
   }
   
   /* md */

@@ -1,25 +1,32 @@
 .form {
+  height: 35vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 3rem;
-    background: #006344;
-    /* background: #D6AD60; */
+    background: #F0F0F0;
+    background: url("../assets/news-bg.jpeg");
+    background-size: cover;
+    /* max-width: 100%; */
+    /* filter:brightness(75%);
+  -webkit-filter:brightness(75%); */
+    background-repeat: no-repeat;
+  background-position: center;
     padding: 20px;
   }
   
   .title {
-    font-size: 2rem;
+    font-size: 40px;
     line-height: 2rem;
     font-weight: 700;
     letter-spacing: -0.025em;
-    color: #fff;
+    color: var(--black);
   }
   
   .description {
     line-height: 1.5rem;
-    font-size: 1rem;
+    font-size: 16px;
     margin-top: 1rem;
     color: var(--black);
   }

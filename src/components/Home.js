@@ -12,11 +12,14 @@ function Home() {
   return (
     <div>
      
-    <><Hero/></>      
-    <><Card/></>
+    <><Hero/></> 
+    <><Card/></> 
+    <><Banner/></>       
+    {/* <><Card/></> */}
+    <Slider/> 
     <WhatWeDo/>
-    <><Banner/></>
-    <Slider/>
+    {/* <><Banner/></> */}
+    {/* <Slider/> */}
     <Achievements/>
     <NewsletterForm/>
    

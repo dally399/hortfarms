@@ -3,7 +3,7 @@
     padding-left: 4rem;
     padding-right: 4rem;
     display: grid;
-    /* background: gold; */
+    /* background: url("../assets/wall.jpg"); */
     gap: 1.5rem;
     grid-template-columns: repeat(2 ,1fr);
 }

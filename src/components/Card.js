@@ -11,7 +11,12 @@ import { GiBarn } from "react-icons/gi";
 
 function Card() {
   useEffect(() => {
-    AOS.init();
+    AOS.init({
+      disable: function() {
+        var maxWidth = 800;
+        return window.innerWidth < maxWidth;
+      }
+    });
     AOS.refresh();
   }, []);
   return (

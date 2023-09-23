@@ -19,24 +19,29 @@ function AboutUs() {
          </p>
 
          <p className="text">Our continual growth has been instigated by a number of factors and initiatives and value which include;</p>
-         <ul className="text">
-          <li>Competent and professional team</li>
-          <li>Competitive prices</li>
-          <li>Professional consultation</li>
-          <li>Strategic market-based agreements with organized farmers</li>
-          <li>Transparency Value chain</li>
-          <li>We value food safety</li>
-          <li>We value Occupational health and safety of our employees</li>
-          <li></li>
+         <ul className="text-list">
+          <li>1. Competent and professional team</li>
+          <li>2. Competitive prices</li>
+          <li>3. Professional consultation</li>
+          <li>4. Strategic market-based agreements with organized farmers</li>
+          <li>5. Transparency Value chain</li>
+          <li>6. We value food safety</li>
+          <li>7. We value Occupational health and safety of our employees</li>
          </ul>
-         <span className="text">Vision: <br /> To be a premier supplier of quality avocados globally</span> <br />
-         <span className="text">Mission: <br /> To provide quality products and services that exceeds specifications and expectations of customers and business patners at all times.</span>
+         <p className="text">
+          <p><b>Our Vision:</b></p>
+          <p>To be a premier supplier of quality avocados globally</p>
+         </p>
+         <p className="text">
+          <p><b>Our Mission:</b></p>
+          <p>To provide quality products and services that exceeds specifications and expectations of customers and business patners at all times.</p>
+          </p>
          <span></span>
-        {/* <div className="skills">
-          <span>Web Design</span>
-          <span>Photoshop & Illustrator</span>
-          <span>Coding</span>
-        </div> */}
+        <div className="skills">
+          <span>Quality</span>
+          <span>Transparent</span>
+          <span>Reliable</span>
+        </div>
       </div>
 
       <div className="about-description">

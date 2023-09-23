@@ -22,22 +22,22 @@ function Achievements() {
      data-aos-duration="3000">
       <div className="card-items">
     <div className="item item--1">
-      <BiTimeFive/>
+      <BiTimeFive className='icon-achieve'/>
       <span className="quantity">5+</span>
       <span className="text text--1">Years Of Success</span>
     </div>
     <div className="item item--2">
-      <BsGraphUpArrow/>
+      <BsGraphUpArrow  className='icon-achieve'/>
       <span className="quantity">100+</span>
       <span className="text text--2">Sales</span>
     </div>
     <div className="item item--3">
-    <MdAttachMoney/>
+    <MdAttachMoney  className='icon-achieve'/>
       <span className="quantity">$1.5 M</span>
       <span className="text text--3">Total Earnings</span>
     </div>
     <div className="item item--4">
-      <AiOutlineTrophy/>
+      <AiOutlineTrophy  className='icon-achieve'/>
       <span className="quantity">3</span>
       <span className="text text--4">Winning Awards</span>
     </div>

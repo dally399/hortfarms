@@ -3,8 +3,8 @@
     color: white;
     display: flex;
     flex-direction: row;
-    width: 900px;
-    height: 250px;
+    width: 80rem;
+    height: 300px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
     gap: 2rem;
@@ -31,9 +31,13 @@
   }
   
   .item:hover {
-    transform: scale(1.5);
+    /* transform: scale(1.5);
     transition: all 1s ease-in-out;
-    rotate: 360deg;
+    rotate: 360deg; */
+    zoom: 1.1;
+    border: var(--green700);
+    border-style:groove;
+    border-width: 1px;
   }
   
   .item svg {
@@ -42,22 +46,10 @@
     margin-bottom: 7px;
   }
   
-  .item--1 {
-    background: #c7c7ff;
+  .item--1, .item--2, .item--3, .item--4 {
+    background: #F0F0F0;
   }
-  
-  .item--2 {
-    background: #ffd8be;
-  }
-  
-  .item--3 {
-    background: #a9ecbf;
-  }
-  
-  .item--4 {
-    background: #f3bbe1;
-  }
-  
+    
   .quantity {
     font-size: 25px;
     font-weight: 600;
@@ -95,6 +87,10 @@
     font-size: 2rem;
     font-weight: 600;
     color: var(--green700);
+  }
+
+  .icon-achieve, .quantity{
+    color: var(--black);
   }
 
   /* xs */

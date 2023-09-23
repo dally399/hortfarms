@@ -179,8 +179,34 @@
 }
 
   /* sm */
-@media screen and (max-width: 640px){
-  
+@media screen and (475px <= width <= 640px){
+  .main-container{
+    padding: 0;
+  }
+    .contact-container{
+      padding: 0;
+      position: relative;
+
+      .contact-form{
+        margin-left: 0;
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+      }
+
+      .contact-info{
+        padding: 0;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 1rem;
+
+        .contacts{
+          padding: 0;
+        }
+      }
+    }
 }
 
 /* md */

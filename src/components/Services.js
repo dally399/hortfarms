@@ -3,10 +3,12 @@ import './Services.css';
 
 import { GiWheat } from "react-icons/gi";
 import { GiFarmTractor } from "react-icons/gi";
-import { GiHammerSickle } from "react-icons/gi";
+import { GiFarmer } from "react-icons/gi";
 import { GiBarn } from "react-icons/gi";
 import { TbTruckDelivery } from "react-icons/tb";
 import { FaMapLocationDot } from "react-icons/fa6";
+import { BsBoxSeam } from "react-icons/bs";
+import { IoDiamondOutline } from "react-icons/io5";
 
 
 function Services() {
@@ -42,7 +44,7 @@ function Services() {
           </p>
         </div>
         <div className="service">
-        <GiHammerSickle className='icon-card'/>
+        <GiFarmer className='icon-card'/>
           <h2>Expert Farmer</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
@@ -66,16 +68,16 @@ function Services() {
           </p>
         </div>
         <div className="service">
-          <i className="fas fa-money-check-alt"></i>
-          <h2>Payroll</h2>
+        <BsBoxSeam className='icon-card'/>
+          <h2>Logistics</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             quae?
           </p>
         </div>
         <div className="service">
-          <i className="fas fa-network-wired"></i>
-          <h2>Networking</h2>
+          <IoDiamondOutline className='icon-card'/>
+          <h2>Quality Control</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
             quae?

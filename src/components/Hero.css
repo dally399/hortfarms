@@ -3,7 +3,7 @@
     background-image: url(../assets/hero.jpg);
     background-position:center;
     background-size: cover;
-    border-radius: 10px;
+    /* border-radius: 10px; */
     display: flex;
     flex-direction: row;
     align-items: flex-end;

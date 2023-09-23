@@ -1,8 +1,8 @@
 
 .footer_contain {
     max-width: 1170px;
-    /* background-color: #0F2027; */
     background: #3E363F;
+    /* background: #F0F0F0; */
     margin: auto;
     scroll-behavior: smooth;
 }
@@ -12,8 +12,8 @@ ul {
 }
 
 .footer {
-    /* background-color: #0F2027; */
     background: #3E363F;
+    /* background: #F0F0F0; */
     padding: 70px 0;
     /* margin-top: 1rem; */
 }
@@ -93,11 +93,13 @@ ul {
 
 .footer-link{
     color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
     text-decoration: none;
 }
 
 .footer-link :hover{
-    color: #E1AD01;
+    color: var(--green700);
 }
 
    /* xs */
