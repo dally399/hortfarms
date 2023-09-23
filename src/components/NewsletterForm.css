@@ -6,13 +6,6 @@
     align-items: center;
     margin-top: 3rem;
     background: #F0F0F0;
-    background: url("../assets/news-bg.jpeg");
-    background-size: cover;
-    /* max-width: 100%; */
-    /* filter:brightness(75%);
-  -webkit-filter:brightness(75%); */
-    background-repeat: no-repeat;
-  background-position: center;
     padding: 20px;
   }
   

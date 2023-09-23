@@ -1,5 +1,6 @@
 import React from 'react';
 import './Services.css'; 
+import NewsletterForm from './NewsletterForm';
 
 import { GiWheat } from "react-icons/gi";
 import { GiFarmTractor } from "react-icons/gi";
@@ -13,6 +14,7 @@ import { IoDiamondOutline } from "react-icons/io5";
 
 function Services() {
   return (
+    <div className="shell">
     <div className="container">
       <h1>Our Services</h1>
       <div className="service-heading">
@@ -84,6 +86,8 @@ function Services() {
           </p>
         </div>
       </div>
+      </div>
+      <NewsletterForm/>
     </div>
   );
 }

@@ -16,9 +16,11 @@ import hass from '../assets/product-hass.jpeg'
 import pineapples from '../assets/pinapple.jpg'
 import mango from '../assets/Mango.jpg'
 import fuerte from '../assets/product-fuerte.jpeg'
+import NewsletterForm from './NewsletterForm';
 
 function Products() {
   return (
+    <div className="shell">
     <div className="main-body-container">
       <span className="container-heading">Our Products</span>
       <span className='description-heading'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam delectus sint illum labore sit error placeat nostrum nemo? Laboriosam, iure.</span>
@@ -85,6 +87,8 @@ function Products() {
       </Swiper>
     </>
     </div>
+    </div>
+    <NewsletterForm/>
     </div>
   )
 }

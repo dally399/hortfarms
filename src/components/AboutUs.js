@@ -3,6 +3,7 @@ import './AboutUs.css'
 
 import AOS from "aos";
 import "aos/dist/aos.css";
+import NewsletterForm from './NewsletterForm';
 
 function AboutUs() {
   useEffect(() => {
@@ -10,6 +11,7 @@ function AboutUs() {
     AOS.refresh();
   }, []);
   return (
+    <div className="shell">
     <div className="about-section">
       <div className="inner-container" data-aos="fade-left"  data-aos-offset="500"
      data-aos-easing="ease-in-sine">
@@ -47,6 +49,8 @@ function AboutUs() {
       <div className="about-description">
 
       </div>
+    </div>
+      <NewsletterForm/>
     </div>
   );
 } 

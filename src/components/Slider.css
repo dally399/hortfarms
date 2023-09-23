@@ -19,7 +19,7 @@
 .swiper-container-body{
   padding-left: 4rem;
   padding-right: 4rem;
-  margin-top: 7rem;
+  /* margin-top: 7rem; */
 }
 
 .slider-title{
@@ -34,11 +34,11 @@
 
 .slider-description{
   display: flex;
-    text-align: center;
+    text-align: start;
     justify-content: center;
     margin-top: 1rem;
-    font-size: 18px;
-    font-weight: 500;
+    font-size: 17px;
+    font-weight: 400;
 }
 
 .slider-btn{

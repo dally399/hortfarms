@@ -24,22 +24,22 @@ function Achievements() {
     <div className="item item--1">
       <BiTimeFive className='icon-achieve'/>
       <span className="quantity">5+</span>
-      <span className="text text--1">Years Of Success</span>
+      <span className="text" style={{color:"white",  fontSize:"17px"}}>Years Of Success</span>
     </div>
     <div className="item item--2">
       <BsGraphUpArrow  className='icon-achieve'/>
       <span className="quantity">100+</span>
-      <span className="text text--2">Sales</span>
+      <span className="text" style={{color:"white",  fontSize:"17px"}}>Sales</span>
     </div>
     <div className="item item--3">
     <MdAttachMoney  className='icon-achieve'/>
       <span className="quantity">$1.5 M</span>
-      <span className="text text--3">Total Earnings</span>
+      <span className="text" style={{color:"white",  fontSize:"17px"}}>Total Earnings</span>
     </div>
     <div className="item item--4">
       <AiOutlineTrophy  className='icon-achieve'/>
       <span className="quantity">3</span>
-      <span className="text text--4">Winning Awards</span>
+      <span className="text" style={{color:"white",  fontSize:"17px"}}>Winning Awards</span>
     </div>
   </div>
   </div>

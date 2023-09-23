@@ -1,5 +1,6 @@
 import React from 'react';
 import './Gallery.css'
+import NewsletterForm from './NewsletterForm';
 
 //other imports
 import hass1 from '../assets/hass-avocado-1.jpeg'
@@ -14,6 +15,7 @@ import hass9 from '../assets/licensed-image.jpeg'
 
 function Gallery() {
   return (
+    <div className="shell">
     <div className="gallery">
        <img src={hass1} alt=''/>
        <img src={hass2} alt=''/>
@@ -24,6 +26,8 @@ function Gallery() {
        <img src={hass7} alt=''/>
        <img src={hass8} alt=''/>
        <img src={hass9} alt=''/>
+      </div>
+      <NewsletterForm/>
       </div>
   );
 }

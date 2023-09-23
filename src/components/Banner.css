@@ -3,13 +3,11 @@
     padding-left: 4rem;
     padding-right: 4rem;
     display: grid;
-    /* background: url("../assets/wall.jpg"); */
     gap: 1.5rem;
     grid-template-columns: repeat(2 ,1fr);
 }
 
 .banner-left{
-    /* background: gold; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,9 +30,22 @@
 }
  
 .banner-p1{
-    font-size: 20px;
-    font-weight: 300;
+    font-size: 17px;
+    font-weight: 400;
 }
+.banner-p2, .sub-content{
+    font-size: 15px;
+    font-weight: 500;
+}
+.banner-sub{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--green700);
+}
+
 
 /* xs */
 @media screen and (max-width: 475px){

@@ -1,6 +1,6 @@
 .card-items {
     padding: 1rem;
-    color: white;
+    /* color: white; */
     display: flex;
     flex-direction: row;
     width: 80rem;
@@ -31,13 +31,10 @@
   }
   
   .item:hover {
-    /* transform: scale(1.5);
-    transition: all 1s ease-in-out;
-    rotate: 360deg; */
     zoom: 1.1;
-    border: var(--green700);
+    /* border: var(--green700);
     border-style:groove;
-    border-width: 1px;
+    border-width: 1px; */
   }
   
   .item svg {
@@ -47,50 +44,25 @@
   }
   
   .item--1, .item--2, .item--3, .item--4 {
-    background: #F0F0F0;
+    background: #52c234;    
   }
     
   .quantity {
     font-size: 25px;
     font-weight: 600;
   }
-  
-  .text {
-    font-size: 12px;
-    font-family: inherit;
-    font-weight: 600;
-  }
-  
-  .text--1 {
-    color: rgba(149,149,255,1);
-  }
-  
-  .text--2 {
-    color: rgba(252,161,71,1);
-  }
-  
-  .text--3 {
-    color: rgba(66,193,110,1);
-  }
-  
-  .text--4 {
-    color: rgba(220,91,183,1);
-  }
-
+   
   .achieve-title{
     text-align: center;
     margin-top: 4rem;
-    /* font-weight: 500; */
     text-transform: capitalize;
-    /* font-size: 35px; */
-
     font-size: 2rem;
     font-weight: 600;
     color: var(--green700);
   }
 
   .icon-achieve, .quantity{
-    color: var(--black);
+    color: var(--white);
   }
 
   /* xs */

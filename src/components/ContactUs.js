@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react'
 import './ContactUs.css'
+import NewsletterForm from './NewsletterForm';
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -14,6 +15,7 @@ function ContactUs() {
     AOS.refresh();
   }, []);
   return (
+    <div className="shell">
     <div className="main-container">
     <section className="contact-container">
       <form className="contact-form">
@@ -76,7 +78,8 @@ function ContactUs() {
       referrerPolicy="no-referrer-when-downgrade"
   ></iframe>
 </div>
-
+</div>
+<NewsletterForm/>
     </div>
   );
 }

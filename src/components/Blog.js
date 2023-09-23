@@ -2,6 +2,7 @@ import React from 'react'
 import './Blog.css'
 
 import blog1 from '../assets/avocado-img2.jpg'
+import NewsletterForm from './NewsletterForm';
 
 function Blog() {
   return ( 
@@ -84,7 +85,8 @@ function Blog() {
       
 
       </div>         
-    </div>  
+    </div> 
+    <NewsletterForm/> 
    </div>
   )
 }

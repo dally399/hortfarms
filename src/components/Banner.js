@@ -2,6 +2,11 @@ import React, { useEffect } from 'react'
 import './Banner.css'
 import {Link} from 'react-router-dom'
 
+
+import { PiPottedPlantLight } from 'react-icons/pi';
+import { MdFamilyRestroom } from 'react-icons/md';
+import { TbAirConditioning } from 'react-icons/tb';
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -20,23 +25,9 @@ function Banner() {
     </div>
 
     <div className="banner-right">
-      <span className='banner-title' data-aos="zoom-in-left" data-aos-delay="900" >Fresh Organic Avocado</span>
+      <span className='banner-title' data-aos="zoom-in-left" data-aos-delay="900" >HortFarms Ltd</span>
       <span className='banner-content' data-aos="zoom-in-down" data-aos-delay="1100">
-        <p className='banner-p1'>We are exporter of best quality of Avocados worldwide</p>
-        <p className='banner-p2'>We are exporter of best quality of Avocados
-worldwide
-We, at HortFarms Ltd specialise in high quality fresh
-Avocado. Each fruit is handpicked and passes
-through quality control before making into final export.</p>
-    
-    
-<Link className="link" to='/products'> <button className='Btn'>Read More</button> </Link>
-      </span>
-    </div>
 
-    <div className="banner-right">
-      <span className='banner-title'  data-aos="zoom-in-right" data-aos-delay="500">HortFarms Ltd</span>
-      <span className='banner-content' data-aos="zoom-in-down" data-aos-delay="800">
       <p  className='banner-p1'>
       Our continual growth has been instigated by a number of factors and initiatives and value which include;
  
@@ -52,6 +43,31 @@ through quality control before making into final export.</p>
         <li>• We value food safety</li>
         <li>• We value Occupational health and safety of our employees</li>
       </ul>
+         
+      </span>
+    </div>
+
+    <div className="banner-right">
+      <span className='banner-title'  data-aos="zoom-in-right" data-aos-delay="500">Why Choose Us</span>
+      <span className='banner-content' data-aos="zoom-in-down" data-aos-delay="800">
+      <p className='banner-p1'>We are exporter of best quality of Avocados worldwide</p>
+        <p className='banner-sub'>
+          <PiPottedPlantLight className='icon-card'/>
+          100% Organic
+        </p>
+        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
+        <p className='banner-sub'>
+          <MdFamilyRestroom className='icon-card'/>
+        Family healthy
+        </p>
+        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
+        <p className='banner-sub'>
+        <TbAirConditioning className='icon-card'/>
+         Always Fresh
+        </p>
+        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
+
+<Link className="link" to='/products'> <button className='Btn'>Read More</button> </Link>
 </span>
     </div>
 
