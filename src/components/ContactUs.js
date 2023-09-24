@@ -8,6 +8,7 @@ import "aos/dist/aos.css";
 import { CiLocationOn } from "react-icons/ci";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsTelephone } from "react-icons/bs";
+import FAQ from './FAQ';
 
 function ContactUs() {
   useEffect(() => {
@@ -79,6 +80,7 @@ function ContactUs() {
   ></iframe>
 </div>
 </div>
+<FAQ/>
 <NewsletterForm/>
     </div>
   );
