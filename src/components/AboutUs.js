@@ -19,6 +19,9 @@ function AboutUs() {
         <p className="text">
         HortFarms Ltd is a leading commercial grower and exporter of premium organic and conventional fresh fruits from Kenya. We have a continuous quest for innovation, freshness, diversity, and excellence to bring produce from the farm to the shelves and ultimately to the consumer tables.
          </p>
+         <p className="text">
+         Hortfarm Exporters Ltd started and got incorporated in the year 2020. We have the best team in both management and staff to ensure you get the best quality produce within the shortest time.
+         </p>
 
          <p className="text">Our continual growth has been instigated by a number of factors and initiatives and value which include;</p>
          <ul className="text-list">
@@ -36,7 +39,16 @@ function AboutUs() {
          </p>
          <p className="text">
           <p><b>Our Mission:</b></p>
-          <p>To provide quality products and services that exceeds specifications and expectations of customers and business patners at all times.</p>
+          <p>
+            To provide quality products and services that exceeds specifications and expectations of customers and business patners at all times.</p>
+          </p>
+
+          <p className="text">
+          <p><b>Our Motto:</b></p>
+          <p>
+          Your supplier of choice. 
+We ensure you get farm fresh produce within the shortest time possible leveraging on technology
+          </p>
           </p>
          <span></span>
         <div className="skills">

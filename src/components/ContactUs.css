@@ -92,9 +92,10 @@
 }
 
 .contact-info {
-  padding: 96px 48px;
+  padding: 96px 40px;
   color: #e4e4e7;
   margin-right: 2rem;
+  
 }
 
 .contact-info .heading {
@@ -103,14 +104,11 @@
 }
 
 .contact-info .contacts li {
-  padding-left: 24px;
+  padding-left: 20px;
   margin-bottom: 32px;
-  font-size: 14px;
-}
-
-.contact-info .contacts li i {
-  width: 24px;
-  padding-right: 12px;
+  font-size: 15px;
+  font-weight: 500;
+  display: flex;
 }
 
 .map-section{
@@ -131,7 +129,7 @@
 
 .icon-us{
   font-size: 25px;
-  font-weight: 400;
+  font-weight: 500;
   padding-right: 10px;
 }
 

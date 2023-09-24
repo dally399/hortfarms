@@ -15,10 +15,12 @@ import { IoDiamondOutline } from "react-icons/io5";
 function Services() {
   return (
     <div className="shell">
-    <div className="container">
+    <div className="serice-container">
       <h1>Our Services</h1>
       <div className="service-heading">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda hic fugit tempora cupiditate numquam, modi unde quisquam obcaecati alias eos ullam minima ea necessitatibus ducimus, consequatur perferendis earum, nostrum dolores!
+      We are committed to providing our customers with the highest quality products and services. We believe that agriculture is essential to the future of humanity, and we are proud to play a role in helping farmers to produce the food that we all need.
+
+Contact us today for more information about our products and services. We would be happy to help you with all of your agricultural needs.
       </div>
       <div className="row">
         <div className="service">

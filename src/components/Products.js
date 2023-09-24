@@ -23,19 +23,38 @@ function Products() {
     <div className="shell">
     <div className="main-body-container">
       <span className="container-heading">Our Products</span>
-      <span className='description-heading'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam delectus sint illum labore sit error placeat nostrum nemo? Laboriosam, iure.</span>
+      <span className='description-heading'>
+      Our avocados, mangoes, and pineapples are all hand-picked at the peak of ripeness and shipped directly to you. We offer a wide variety of sizes and quantities to choose from, so you can find the perfect amount for your needs. No matter which fruit you choose, you are sure to enjoy its delicious flavor and health benefits.
+      <p>Our Mission is to provide quality products and services that exceeds specifications and expectations of customers and business patners at all times.</p>
+        </span>
     <div className="body-container">
       <div className="content-left">
           <img src={hass} alt="" loading='lazy' />
       </div>
       <div className="content-right">
         <span className='hass-title'>Hass Avocados</span>
-        <span className='hass-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet repellat molestias suscipit culpa hic maxime amet non excepturi saepe officia rerum sequi, earum explicabo laboriosam assumenda dolorem labore eum.</span>
+        <span className='hass-content'>
+        Hass avocados are the most popular avocado variety in the world, and for good reason. They have a rich, buttery flavor and a smooth, creamy texture. Hass avocados are also highly nutritious, containing a variety of vitamins, minerals, and healthy fats.
+
+ <p>Flavor: Rich, buttery</p>
+<p>Texture: Smooth, creamy</p>
+<p>Nutrition: Vitamins A, C, E, and K, as well as potassium, fiber, and healthy fats</p>
+
+Uses: Hass avocados are versatile fruits that can be enjoyed in a variety of ways. They can be eaten fresh, added to salads, sandwiches, and wraps, or used to make guacamole, hummus, and other dips and spreads.
+          </span>
       </div>
  
       <div className="content-left-mid">
         <span className='fuerte-title'>Fuerte Avocados</span>
-        <span className='fuerte-container'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nihil iusto odit facere, perferendis cum id? Nihil ducimus excepturi enim molestias eligendi? Porro, assumenda! Atque suscipit debitis non eos modi.</span>
+        <span className='fuerte-container'>
+        Fuerte avocados are another popular avocado variety. They have a slightly sweeter and fruitier flavor than Hass avocados, and their flesh is slightly firmer. Fuerte avocados are also a good source of vitamins, minerals, and healthy fats.
+<p>Flavor: Slightly sweeter and fruitier than Hass avocados</p>
+<p>Texture: Slightly firmer than Hass avocados</p>
+<p>Nutrition: Vitamins A, C, E, and K, as well as potassium, fiber, and healthy fats
+</p>
+
+Uses: Fuerte avocados can be enjoyed in the same ways as Hass avocados. They are especially good for slicing and adding to salads and sandwiches.
+          </span>
       </div>
 
       <div className="content-right-mid">
@@ -47,12 +66,26 @@ function Products() {
       </div>
       <div className="content-right">
         <span className='hass-title'>Pineapples</span>
-        <span className='hass-content'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas eveniet repellat molestias suscipit culpa hic maxime amet non excepturi saepe officia rerum sequi, earum explicabo laboriosam assumenda dolorem labore eum.</span>
+        <span className='hass-content'>
+        Pineapples are tropical fruits with a sweet, tangy flavor and a bright yellow color. Pineapples are a good source of vitamins C and B6, as well as manganese and copper.
+<p>Flavor: Sweet, tangy</p>
+<p>Texture: Slightly fibrous</p>
+<p>Nutrition: Vitamins C and B6, as well as manganese and copper</p>
+
+Uses: Pineapples can be eaten fresh, added to salads, smoothies, and desserts, or used to make juice and jam. 
+          </span>
       </div>
  
       <div className="content-left-mid">
         <span className='fuerte-title'>Mangos</span>
-        <span className='fuerte-container'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus nihil iusto odit facere, perferendis cum id? Nihil ducimus excepturi enim molestias eligendi? Porro, assumenda! Atque suscipit debitis non eos modi.</span>
+        <span className='fuerte-container'>
+        Mangoes are tropical fruits with a sweet, juicy flavor and a bright orange color. Mangoes are a good source of vitamins A, C, and E, as well as fiber and potassium.
+<p>Flavor: Sweet, juicy</p>
+<p>Texture: Firm but slightly yielding</p>
+<p>Nutrition: Vitamins A, C, and E, as well as fiber and potassium</p>
+
+Uses: Mangoes can be eaten fresh, added to salads, smoothies, and desserts, or used to make chutney and salsa.
+          </span>
       </div>
 
       <div className="content-right-mid">

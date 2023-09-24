@@ -46,20 +46,17 @@ function ContactUs() {
         <ul className="contacts">
           <li>
             <CiLocationOn className='icon-us'/>
-            123 Main Street, Suite 456, Anytown
+            Kisumu County, Kenya
           </li>
           <li>
             <HiOutlineMail className='icon-us'/>
-            info@apexenterprises.com
+            hotfarmsltd@gmail.com
           </li>
           <li>
            <BsTelephone className='icon-us'/>
-            555-123-4567
+           (+254) 0701439141
           </li>
-          <li>
-          <BsTelephone className='icon-us'/>
-            555-987-6543
-          </li>
+    
         </ul>
         <div className="social-links"></div>
       </div>

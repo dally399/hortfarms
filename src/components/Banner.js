@@ -51,22 +51,23 @@ function Banner() {
       <span className='banner-title'  data-aos="zoom-in-right" data-aos-delay="500">Why Choose Us</span>
       <span className='banner-content' data-aos="zoom-in-down" data-aos-delay="800">
       <p className='banner-p1'>We are exporter of best quality of Avocados worldwide</p>
-        <p className='banner-sub'>
+        <span className='banner-sub'>
           <PiPottedPlantLight className='icon-card'/>
           100% Organic
-        </p>
-        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
-        <p className='banner-sub'>
+        </span>
+        <span className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</span>
+        <span className='banner-sub'>
           <MdFamilyRestroom className='icon-card'/>
         Family healthy
-        </p>
-        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
-        <p className='banner-sub'>
+        </span>
+        <span className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</span>
+        <span className='banner-sub'>
         <TbAirConditioning className='icon-card'/>
          Always Fresh
-        </p>
-        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
-
+        </span>
+        <span className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</span>
+<br />
+<br />
 <Link className="link" to='/products'> <button className='Btn'>Read More</button> </Link>
 </span>
     </div>

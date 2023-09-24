@@ -11,8 +11,9 @@
 .inner-container{
     width: 55%;
     float: right;
-    backdrop-filter: blur(4.5px);
-    -webkit-backdrop-filter: blur(4.5px);
+    background: var(--white);
+    /* backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px); */
     padding-left: 150px;
     padding-top: 30px;
     padding-right: 150px;
