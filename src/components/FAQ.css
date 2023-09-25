@@ -1,7 +1,15 @@
-.container {
+.faq-container {
     margin: 0 auto;
-    padding: 4rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
     width: 48rem;
+  }
+
+  .faq-container h2{
+    font-size: 2rem;
+    text-align: center;
+  font-weight: 600;
+  color: var(--green700);
   }
   
   .accordion .accordion-item {
@@ -9,7 +17,7 @@
   }
   
   .accordion button[aria-expanded='true'] {
-    border-bottom: 1px solid #007ACC;
+    border-bottom: 1px solid var(--green700);
   }
   
   .accordion button {
@@ -29,14 +37,14 @@
   .accordion button:hover,
   .accordion button:focus {
     cursor: pointer;
-    color: #007ACC;
+    color: var(--green700);
   }
   
   .accordion button:hover::after,
   .accordion button:focus::after {
     cursor: pointer;
-    color: #007ACC;
-    border: 1px solid #007ACC;
+    color: var(--green700);
+    border: 1px solid var(--green700);
   }
   
   .accordion .accordion-title {
@@ -105,3 +113,27 @@
     margin: 2em 0;
   }
   
+/* xs */
+@media screen and (max-width: 768px ){
+  .faq-container{
+    padding: 0;
+    margin-top: 4rem;
+    width: 100%;
+  }
+}
+  
+   
+   /* lg */
+   @media screen and (max-width: 1024px){
+      
+   }
+   
+   /* xl */
+   @media screen and (max-width: 1280px){
+      
+   }
+   
+   /* 2xl */
+   @media screen and (max-width: 1536px){
+      
+   }

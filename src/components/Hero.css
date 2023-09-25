@@ -73,14 +73,13 @@
 
 /* xs */
 @media screen and (max-width: 475px){
-    .background-container{
-       height: 60vh;
-       position: relative;
-        background-size: cover;
-        
-       .left-side{
-        position: relative;
-        align-items: center;
+    .header-container{
+        width: 100%;
+        height: 60vh;
+    }  
+    .left-side{
+        padding: 0;
+        width: 100%;
 
         .h-mid{
             font-size: 2rem;
@@ -89,7 +88,6 @@
         .h-below{
             font-size: 1.5rem;
         }
-       }
     }
     
 }

@@ -46,7 +46,7 @@ function FAQ() {
   ];
 
   return (
-    <div className="container">
+    <div className="faq-container">
       <h2>Frequently Asked Questions</h2>
       <div className="accordion">
         {faqData.map((item, index) => (

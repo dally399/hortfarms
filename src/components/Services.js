@@ -27,64 +27,56 @@ Contact us today for more information about our products and services. We would 
         <GiWheat className='icon-card'/>
           <h2>Agricultural Products</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
+          Our products come from sustainable farms all around the world that use cutting-edge farming methods to assure excellent quality and output.
           </p>
         </div>
         <div className="service">
         <GiFarmTractor className='icon-card'/>
           <h2>Modern Techniques</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
+          In our agricultural operations, we employ a number of sophisticated technology. It allows us to conserve resources, increase yields, and lessen our environmental effect.
           </p>
         </div>
         <div className="service">
         <GiBarn className='icon-card'/>
           <h2>Farm Supplies</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
+            We offer a wide range of farm supplies. We also offer a variety of specialized supplies, such as greenhouse supplies and hydroponic supplies.
           </p>
         </div>
         <div className="service">
         <GiFarmer className='icon-card'/>
           <h2>Expert Farmer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
+          Our team of expert farmers is available to provide you with advice and support on all aspects of agriculture. 
           </p>
         </div>
         <div className="service">
           <FaMapLocationDot className='icon-card'/>
           <h2>Source Fresh Fruits and Vegetables</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
+          We are a leading supplier of fresh fruits and vegetables. 
           </p>
         </div>
         <div className="service">
         <TbTruckDelivery className='icon-card'/>
           <h2>Export Fresh Fruits and Vegetables</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
+          We also export fresh fruits and vegetables to markets all over the world.
           </p>
         </div>
         <div className="service">
         <BsBoxSeam className='icon-card'/>
           <h2>Logistics</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
+          We transport our produce from the farm to its destination.
           </p>
         </div>
         <div className="service">
           <IoDiamondOutline className='icon-card'/>
           <h2>Quality Control</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi,
-            quae?
+            We have a team of experts in place to monitor quality and address any issues that may arise.
           </p>
         </div>
       </div>

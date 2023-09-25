@@ -5,7 +5,7 @@
     display: flex;
     justify-content: space-between;
     position: sticky;
-    background: white;
+    /* background: #F0F0F0; */
     /* background: ; */
 
     opacity: 1;
@@ -102,6 +102,9 @@
 @media screen and (max-width: 1024px) {
     .n-wrapper{
         padding: 0;
+        height: 10vh;
+        /* width: 80%; */
+        /* background: #F0F0F0; */
         padding-left: 2rem;
         padding-right: 2rem;
         /* position: fixed; */
@@ -115,7 +118,7 @@
      
     .nav-right{
         position: absolute;
-        background: #F1FFE5;
+        background: #F0F0F0;
         height: max-content;
         display: flex;
         flex-direction: column;
@@ -152,7 +155,7 @@
             position: absolute;
             top: 0.2rem;
             right: 1rem;
-            color: aqua;
+            color: black;
         }
     }
     

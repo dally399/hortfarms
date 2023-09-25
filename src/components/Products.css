@@ -105,15 +105,24 @@
 
 /* xs */
 @media screen and (max-width: 475px){
-    .description-heading{
+    .main-body-container{
         padding: 0;
-        text-align: justify;
+    }
+    .swiperjs-container{
+        padding: 0;
+        padding-bottom: 3rem;
+        height: 250px;
+    }
+    .description-heading{
+        width: 100%;
+        text-align: start;
         padding-left: 10px;
         padding-right: 10px;
         font-size: 15px;
     }
     .body-container{
         display: flex;
+        /* background: gold; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -122,6 +131,7 @@
         padding-right: 10px;
 
         .content-left , .content-right-mid{
+            padding: 0;
             width: 250px;
             height: auto;
         }
@@ -154,15 +164,24 @@
   
     /* sm */
   @media screen and (476px <= width <= 640px){
-    .description-heading{
+    .main-body-container{
         padding: 0;
-        text-align: justify;
+    }
+    .swiperjs-container{
+        padding: 0;
+        padding-bottom: 3rem;
+        height: 300px;
+    }
+    .description-heading{
+        width: 100%;
+        text-align: start;
         padding-left: 10px;
         padding-right: 10px;
         font-size: 15px;
     }
     .body-container{
         display: flex;
+        /* background: gold; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -171,6 +190,7 @@
         padding-right: 10px;
 
         .content-left , .content-right-mid{
+            padding: 0;
             width: 250px;
             height: auto;
         }
@@ -203,15 +223,24 @@
   
   /* md */
   @media screen and (641px <= width <= 768px){
-    .description-heading{
+    .main-body-container{
         padding: 0;
-        text-align: justify;
+    }
+    .swiperjs-container{
+        padding: 0;
+        padding-bottom: 3rem;
+        height: 350px;
+    }
+    .description-heading{
+        width: 100%;
+        text-align: start;
         padding-left: 10px;
         padding-right: 10px;
         font-size: 15px;
     }
     .body-container{
         display: flex;
+        /* background: gold; */
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -220,6 +249,7 @@
         padding-right: 10px;
 
         .content-left , .content-right-mid{
+            padding: 0;
             width: 250px;
             height: auto;
         }

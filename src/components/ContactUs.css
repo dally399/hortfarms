@@ -39,9 +39,6 @@
 
 .contact-form .heading h2 {
   margin-bottom: 8px;
-  /* color: #27272a; */
-  /* font-size: 36px; */
-
   font-size: 2rem;
     font-weight: 600;
     color: var(--black);
@@ -120,7 +117,7 @@
 }
 
 .locate{
-  margin-top: 7rem;
+  margin-top: 5rem;
   margin-bottom: 3rem;
   font-size: 2rem;
   font-weight: 600;
@@ -149,6 +146,7 @@
 @media screen and (max-width: 475px){
   .main-container{
     padding: 0;
+    /* background: gold; */
   }
     .contact-container{
       padding: 0;
@@ -174,10 +172,17 @@
         }
       }
     }
+    .locate{
+      padding: 0; 
+    }
+    .map-section iframe{
+      width: 100%;
+      height: 400px;
+    }
 }
 
   /* sm */
-@media screen and (475px <= width <= 640px){
+@media screen and (475px <= width <= 768px){
   .main-container{
     padding: 0;
   }
@@ -207,10 +212,10 @@
     }
 }
 
-/* md */
-@media screen and (max-width: 768px){
+/* md
+@media screen and (max-width: px){
   
-}
+} */
 
 /* lg */
 @media screen and (max-width: 1024px){
