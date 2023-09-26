@@ -4,7 +4,7 @@
     padding: 0;
     display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: -webkit-sticky;
     /* background: #F0F0F0; */
     /* background: ; */
 
@@ -88,15 +88,7 @@
     color: var(--white);
 }
 
-.toggleNavbar{
-    .icon{
-        font-size: 25px;
-        color: var(--black);
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-  }
+
 
 
 @media screen and (max-width: 1024px) {

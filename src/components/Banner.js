@@ -21,7 +21,7 @@ function Banner() {
   return (
    <div className="banner-main-container">
     <div className="banner-left" data-aos="zoom-in-up" data-aos-delay="500"  data-aos-duration="1000">
-        <img src={banner_img1} alt="" />
+        <img src={banner_img1} alt="" loading='lazy'/>
     </div>
 
     <div className="banner-right">
@@ -73,7 +73,7 @@ function Banner() {
     </div>
 
     <div className="banner-left" data-aos="zoom-in-up" data-aos-delay="950"  data-aos-duration="1100">
-        <img className='img2' src={banner_img2} alt="" />
+        <img className='img2' src={banner_img2} alt="" loading='lazy'/>
     </div>
    </div>
   )

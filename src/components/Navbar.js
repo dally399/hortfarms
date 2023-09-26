@@ -1,22 +1,12 @@
-import React, {useState} from 'react'
+import React from 'react'
 import {Link} from 'react-router-dom'
 import './Navbar.css' 
 import logo from '../assets/logo5.png'
 
-import { AiFillCloseCircle } from "react-icons/ai";
-import { TbGridDots } from "react-icons/tb";
+// import { AiFillCloseCircle } from "react-icons/ai";
+// import { TbGridDots } from "react-icons/tb";
 
 function Navbar() {
-
-  const [active, setActive] = useState('nav-right')
-
-  const showNav = ()=>{
-    setActive('nav-right activeNavbar')
-  }
-
-  const removeNavbar = ()=>{
-    setActive('nav-right')
-  }
 
   return (
     <div className="n-wrapper">
@@ -24,7 +14,7 @@ function Navbar() {
         <img src={logo} alt="logo" />
       </div>
 
-      <div className={active}>
+      <div className="nav-right">
         <div className="n-list">
           <ul className="nav-list" style={{listStyleType:'none'}}>
 
@@ -48,15 +38,9 @@ function Navbar() {
           <Link className="link" style={{color:'#fff'}} to='/contact'>Contact us</Link>
         </button>
 
-        <div onClick={removeNavbar} className="closeNavbar">
-          <AiFillCloseCircle className="icon"/>
-        </div>
-
+      
       </div>
 
-      <div onClick={showNav} className="toggleNavbar">
-        <TbGridDots className="icon"/>
-      </div>
     </div>
   )
 }
