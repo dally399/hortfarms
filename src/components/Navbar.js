@@ -1,46 +1,54 @@
-import React from 'react'
+import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import './Navbar.css' 
 import logo from '../assets/logo5.png'
 
-// import { AiFillCloseCircle } from "react-icons/ai";
-// import { TbGridDots } from "react-icons/tb";
+import { GrClose } from "react-icons/gr";
+import { TbGridDots } from "react-icons/tb";
 
 function Navbar() {
+
+  const [click, setClick] = useState(false)
+    const handleClick = () => setClick(!click)
+
+    const closeMenu = () => setClick(false)
 
   return (
     <div className="n-wrapper">
       <div className="nav-left">
-        <img src={logo} alt="logo" />
-      </div>
+        <img src={logo} alt="logo" />        
+        </div>     
 
-      <div className="nav-right">
+      <div className={click ? "nav-right active" : "nav-right"}>
+
         <div className="n-list">
-          <ul className="nav-list" style={{listStyleType:'none'}}>
+          <ul className= "nav-list" style={{listStyleType:'none'}}>
 
-            <Link className="link" to='/'><li className='listItem'>Home</li></Link>
+            <Link className="link" to='/' onClick={closeMenu}><li className='listItem'>Home</li></Link>
 
             <li className='listItem'>Catalog
             <ul className='dropdown-menu'>
-              <Link className="link" to='/gallery'><li>Gallery</li></Link>
-              <Link className="link" to='/products'><li>Our Products</li></Link>
-              <Link className="link" to='/patners'><li>Our Partners</li></Link>
+              <Link className="link" to='/gallery' onClick={closeMenu}><li>Gallery</li></Link>
+              <Link className="link" to='/products' onClick={closeMenu}><li>Our Products</li></Link>
+              <Link className="link" to='/patners' onClick={closeMenu}><li>Our Partners</li></Link>
               </ul>
             </li>
 
-            <Link className="link" to='/blog'><li className='listItem'>Blog</li></Link>
-            <Link className="link" to='/services'><li className='listItem'>Services</li></Link>
-            <Link className="link" to='/about'><li className='listItem'>About us</li></Link>
+            <Link className="link" to='/blog' onClick={closeMenu}><li className='listItem'>Blog</li></Link>
+            <Link className="link" to='/services' onClick={closeMenu}><li className='listItem'>Services</li></Link>
+            <Link className="link" to='/about' onClick={closeMenu}><li className='listItem'>About us</li></Link>
           </ul>
         </div>
 
         <button className='Btn'>
-          <Link className="link" style={{color:'#fff'}} to='/contact'>Contact us</Link>
-        </button>
-
-      
+          <Link className="link" style={{color:'#fff'}} to='/contact' onClick={closeMenu}>Contact us</Link>
+        </button>      
+      </div>  
+        
+      <div className='hamburger' onClick={handleClick}>
+        {click ? (<GrClose size={30} style={{ color: '#000' }} />)
+       : (<TbGridDots size={30} style={{ color: '#000' }} />)}
       </div>
-
     </div>
   )
 }
