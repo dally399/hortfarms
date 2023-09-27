@@ -1,4 +1,5 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useRef } from 'react'
+import emailjs from '@emailjs/browser';
 import './ContactUs.css'
 import NewsletterForm from './NewsletterForm';
 
@@ -15,20 +16,35 @@ function ContactUs() {
     AOS.init();
     AOS.refresh();
   }, []);
+
+  const form = useRef()
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs.sendForm('service_4a3e98d', 'template_hx5z89g', form.current, 'iY_XaL7I25ldaG2M6')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
+      e.target.reset()
+  };
+
   return (
     <div className="shell">
     <div className="main-container">
     <section className="contact-container">
-      <form className="contact-form">
+      <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="heading">
           <h2>GET IN TOUCH</h2>
           <p>Send Us A Message</p>
         </div>
         <div className="input">
-          <input name="username" type="text" placeholder="Your Name*" />
+          <input name="user_name" type="text" placeholder="Your Name*" />
         </div>
         <div className="input">
-          <input name="email" type="email" placeholder="Your Email*" />
+          <input name="user_email" type="email" placeholder="Your Email*" />
         </div>
         <div className="input">
           <textarea
@@ -39,7 +55,7 @@ function ContactUs() {
             style={{ resize: 'none' }}
           ></textarea>
         </div>
-        <input className="button" type="button" value="Submit" />
+        <input className="button" type="submit" value="Send" />
       </form>
       <div className="contact-info">
         <h3 className="heading">OUR INFORMATIONS</h3>

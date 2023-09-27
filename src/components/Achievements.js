@@ -21,25 +21,25 @@ function Achievements() {
     <div className="container-achievements" data-aos="fade-up"
      data-aos-duration="3000">
       <div className="card-items">
-    <div className="item item--1">
+    <div className="item">
       <BiTimeFive className='icon-achieve'/>
       <span className="quantity">5+</span>
-      <span className="text" style={{color:"white",  fontSize:"17px"}}>Years Of Success</span>
+      <span className='txt-achieve'>Years Of Success</span>
     </div>
-    <div className="item item--2">
+    <div className="item">
       <BsGraphUpArrow  className='icon-achieve'/>
       <span className="quantity">100+</span>
-      <span className="text" style={{color:"white",  fontSize:"17px"}}>Sales</span>
+      <span className='txt-achieve'>Sales</span>
     </div>
-    <div className="item item--3">
+    <div className="item">
     <MdAttachMoney  className='icon-achieve'/>
       <span className="quantity">$1.5 M</span>
-      <span className="text" style={{color:"white",  fontSize:"17px"}}>Total Earnings</span>
+      <span className='txt-achieve'>Total Earnings</span>
     </div>
-    <div className="item item--4">
+    <div className="item">
       <AiOutlineTrophy  className='icon-achieve'/>
       <span className="quantity">3</span>
-      <span className="text" style={{color:"white",  fontSize:"17px"}}>Winning Awards</span>
+      <span className='txt-achieve' >Winning Awards</span>
     </div>
   </div>
   </div>
