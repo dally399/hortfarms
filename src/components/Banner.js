@@ -50,7 +50,7 @@ function Banner() {
     <div className="banner-right">
       <span className='banner-title'  data-aos="zoom-in-right" data-aos-delay="500">Why Choose Us</span>
       <span className='banner-content' data-aos="zoom-in-down" data-aos-delay="800">
-      <p className='banner-p1'>We are exporter of best quality of Avocados worldwide</p>
+      <p className='banner-p1'>We produce the best quality of fruits worldwide</p>
         <span className='banner-sub'>
           <PiPottedPlantLight className='icon-card'/>
           100% Organic

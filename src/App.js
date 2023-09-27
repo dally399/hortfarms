@@ -10,6 +10,7 @@ import Products from './components/Products';
 import Blog from './components/Blog';
 import Contact from './components/ContactUs';
 import Footer from './components/Footer';
+import FAQ from './components/FAQ'
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route exact path='/products' element={<Products/>}></Route>
         <Route exact path='/blog' element={<Blog/>}></Route>
         <Route exact path='/contact' element={<Contact/>}></Route>
+        <Route exact path='/faq' element={<FAQ/>}></Route>
       </Routes>
       <Footer/>
     </BrowserRouter>

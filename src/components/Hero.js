@@ -58,13 +58,12 @@ export default function Hero() {
         <SwiperSlide style={{height:"100%"}}>
         <div className="background-container">
         <img src={image1} alt="" loading='lazy'/>
-      <div className="left-side">
+      <div className="intro-side">
         
-        <span className='h-top animate__animated animate__bounceInDown'>A New Way To Invest In Agriculture </span> <br />
-        <span className='h-mid animate__animated animate__bounceInDown'>Experience The Real</span> <br />
-        <span className='h-below animate__animated animate__bounceInDown'>Agriculture</span>
+        <span className='h-mid animate__animated animate__bounceInDown'>AVOCADOS</span> <br />
+        <span className='h-below animate__animated animate__bounceInDown'>By HortFarms</span>
 
-       <Link className="link" to='/about'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Read More</button> </Link> 
+       <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Products</button> </Link> 
          
       </div>     
     </div>
@@ -76,11 +75,10 @@ export default function Hero() {
         <img src={image2} alt="" loading='lazy'/>
       <div className="left-side">
         
-        <span className='h-top animate__animated animate__bounceInDown'>A New Way To Invest In Agriculture </span> <br />
-        <span className='h-mid animate__animated animate__bounceInDown'>Experience The Real</span> <br />
-        <span className='h-below animate__animated animate__bounceInDown'>Agriculture</span>
+        <span className='h-mid animate__animated animate__bounceInDown'>PINEAPPLES</span> <br />
+        <span className='h-below animate__animated animate__bounceInDown'>By HortFarms</span>
 
-       <Link className="link" to='/about'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Read More</button> </Link> 
+       <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Products</button> </Link> 
          
       </div>     
     </div>
@@ -92,11 +90,10 @@ export default function Hero() {
         <img src={image3} alt="" loading='lazy'/>
       <div className="left-side">
         
-        <span className='h-top animate__animated animate__bounceInDown'>A New Way To Invest In Agriculture </span> <br />
-        <span className='h-mid animate__animated animate__bounceInDown'>Experience The Real</span> <br />
-        <span className='h-below animate__animated animate__bounceInDown'>Agriculture</span>
+        <span className='h-mid animate__animated animate__bounceInDown'>MANGOS</span> <br />
+        <span className='h-below animate__animated animate__bounceInDown'>By HortFarms</span>
 
-       <Link className="link" to='/about'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Read More</button> </Link> 
+       <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Products</button> </Link> 
          
       </div>     
     </div>

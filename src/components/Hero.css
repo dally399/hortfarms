@@ -21,7 +21,7 @@
     margin-top: 0;
 }
 
-.left-side{
+.intro-side {
     justify-content: center;
     display: flex;
     max-width: 600px;
@@ -29,6 +29,19 @@
     padding: 100px 70px;
     flex-direction: column;
     align-items: center;
+    top: 20%;
+}
+
+.left-side{
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    padding-top: 100px;
+    /* padding: 100px 70px; */
+    flex-direction: column;
+    align-items: center;
+    /* background: gold; */
     top: 20%;
 }
 

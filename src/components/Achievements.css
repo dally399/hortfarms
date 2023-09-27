@@ -65,13 +65,11 @@
   }
 
   /* xs */
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 1024px){
     .achieve-title, .container-achievements{
       padding: 0;
       width: 100%;
-    }
-
-  
+    } 
    
     .card-items{
       padding: 0;
@@ -86,12 +84,6 @@
     }
 
 
-}
-
-
-/* lg */
-@media screen and (max-width: 1024px){
-    
 }
 
 /* xl */

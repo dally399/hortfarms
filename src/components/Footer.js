@@ -19,7 +19,6 @@ function Footer() {
                     <ul>
                         <Link className='footer-link' to='/about' ><li>About us</li></Link>
                         <Link className='footer-link' to='/services' ><li>Our Services</li></Link>
-                        <Link className='footer-link' to='/policy' ><li>Privacy Policy</li></Link>
                         <Link className='footer-link' to='/contact' ><li>Contact us</li></Link>
                     </ul>
                 </div>
@@ -27,7 +26,6 @@ function Footer() {
                     <h4>Get Help</h4>
                     <ul>
                        <Link className='footer-link' to='/faq' ><li>FAQ</li></Link> 
-                       <Link className='footer-link' to='/options' ><li>Payment Options</li></Link> 
                        <Link className='footer-link' to='/terms' ><li>Terms and Conditions</li></Link>
                        <Link className='footer-link' to='/cookies' ><li>Cookies</li></Link> 
                     </ul>

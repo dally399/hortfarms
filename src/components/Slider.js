@@ -5,6 +5,8 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import './Slider.css';
 import { EffectCoverflow, Pagination } from 'swiper/modules';
+import {Link} from 'react-router-dom'
+
 
 //other imports
 import hass1 from '../assets/hass-avocado-1.jpeg'
@@ -38,7 +40,7 @@ export default function Slider() {
         </span>  
         <span className='slider-btn' data-aos="fade-up"
      data-aos-duration="3000">
-          <button className='Btn'>See more on Gallery <AiOutlineArrowRight className='icon-slider'/></button>
+         <Link className="link" to='/gallery'><button className='Btn'>See more on Gallery <AiOutlineArrowRight className='icon-slider'/></button> </Link> 
         </span>
     <>
       <Swiper data-aos="fade-left"
