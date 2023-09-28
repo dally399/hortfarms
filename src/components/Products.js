@@ -1,6 +1,5 @@
 import React from 'react';
 import './Products.css'
-
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
@@ -17,6 +16,9 @@ import pineapples from '../assets/pinapple.jpg'
 import mango from '../assets/Mango.jpg'
 import fuerte from '../assets/product-fuerte.jpeg'
 import NewsletterForm from './NewsletterForm';
+
+import image1 from '../assets/hero-pineapple.jpg'
+import image2 from '../assets/alexander-schimmeck-vTXtQ8ZBzvY-unsplash.jpg'
 
 function Products() {
   return (
@@ -106,16 +108,16 @@ Uses: Mangoes can be eaten fresh, added to salads, smoothies, and desserts, or u
         className="mySwiper"
       >
         <SwiperSlide style={{height:"600px"}}>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" alt=""/>
+          <img src={image1} alt=""/>
         </SwiperSlide>
         <SwiperSlide style={{height:"600px"}}>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" alt="" />
+          <img src={image2} alt="" />
         </SwiperSlide>
         <SwiperSlide style={{height:"600px"}}>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" alt=""/>
+          <img src={mango} alt=""/>
         </SwiperSlide>
         <SwiperSlide style={{height:"600px"}}>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" alt=""/>
+          <img src={fuerte} alt=""/>
         </SwiperSlide>
       </Swiper>
     </>
