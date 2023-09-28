@@ -46,14 +46,14 @@
 }
 
 
-.h-mid{
+.h-mid, .h-mid-avocado{
     font-weight: 600;
     font-size: 6rem;
     color: var(--white);
     text-align: start;
 }
 
-.h-below{
+.h-below, .h-below-avocado{
     font-weight: 500;
     font-size: 1.5rem;
     padding: 0px;
@@ -79,21 +79,37 @@
 }
 
 /* xs */
-@media screen and (max-width: 475px){
+@media screen and (max-width: 640px){
     .header-container{
         width: 100%;
         height: 60vh;
-    }  
+    } 
+    
+    .intro-side{
+        padding: 0;
+        width: 100%;
+
+        .h-mid-avocado{
+            font-size: 2rem;
+            padding-top: 60px;
+        }
+
+        .h-below-avocado{
+            font-size: 1.2rem;
+        }
+    }
+
     .left-side{
         padding: 0;
         width: 100%;
 
         .h-mid{
             font-size: 2rem;
+            padding-top: 60px;
         }
 
         .h-below{
-            font-size: 1.5rem;
+            font-size: 1.2rem;
         }
     }
     

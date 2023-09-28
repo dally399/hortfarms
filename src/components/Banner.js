@@ -68,7 +68,7 @@ function Banner() {
         <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
 
 <br />
-<Link className="link" to='/products'> <button className='Btn'>Read More</button> </Link>
+<Link className="link" to='/products'> <button className='Btn' style={{fontSize:"15px"}}>Read More</button> </Link>
 </span>
     </div>
 

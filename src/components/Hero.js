@@ -8,7 +8,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 import image1 from "../assets/hero.jpg"
-import image2 from "../assets/hero-pineapple.jpg"
+import image2 from "../assets/justine-alipate-45_9fGU7gck-unsplash.jpg"
 import image3 from "../assets/alexander-schimmeck-vTXtQ8ZBzvY-unsplash.jpg"
 
 
@@ -44,8 +44,8 @@ export default function Hero() {
         <img src={image1} alt="" loading='lazy'/>
       <div className="intro-side">
         
-        <span className='h-mid animate__animated animate__bounceInDown'>AVOCADOS</span> <br />
-        <span className='h-below animate__animated animate__bounceInDown'>By HortFarms</span>
+        <span className='h-mid-avocado animate__animated animate__bounceInDown'>AVOCADOS</span> <br />
+        <span className='h-below-avocado animate__animated animate__bounceInDown'>By HortFarms</span>
 
        <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >See Products</button> </Link> 
          
@@ -62,7 +62,7 @@ export default function Hero() {
         <span className='h-mid animate__animated animate__bounceInDown'>PINEAPPLES</span> <br />
         <span className='h-below animate__animated animate__bounceInDown'>By HortFarms</span>
 
-       <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Products</button> </Link> 
+       <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >See Products</button> </Link> 
          
       </div>     
     </div>
@@ -77,7 +77,7 @@ export default function Hero() {
         <span className='h-mid animate__animated animate__bounceInDown'>MANGOS</span> <br />
         <span className='h-below animate__animated animate__bounceInDown'>By HortFarms</span>
 
-       <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >Products</button> </Link> 
+       <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >See Products</button> </Link> 
          
       </div>     
     </div>

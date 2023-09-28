@@ -72,20 +72,24 @@
             padding-right: 10px;
 
             .banner-title{
-                font-size: 28px;
+                font-size: 25px;
                 font-weight: 500;
             }
 
             .banner-p1, .banner-sub{
-                font-size: 18px;
+                font-size: 17px;
                 font-weight: 500;
             }
 
             .banner-p2, .sub-content{
                 padding: 0;
                 text-align: start;
-                font-size: 16px;
+                font-size: 15px;
                 font-weight: 500;
+            }
+
+            .banner-p2{
+                padding-left: 20px;
             }
 
             .Btn{
