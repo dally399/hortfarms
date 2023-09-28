@@ -55,18 +55,18 @@ function Banner() {
           <PiPottedPlantLight className='icon-card'/>
           100% Organic
         </span>
-        <span className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</span>
+        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
         <span className='banner-sub'>
           <MdFamilyRestroom className='icon-card'/>
         Family healthy
         </span>
-        <span className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</span>
+        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
         <span className='banner-sub'>
         <TbAirConditioning className='icon-card'/>
          Always Fresh
         </span>
-        <span className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</span>
-<br />
+        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
+
 <br />
 <Link className="link" to='/products'> <button className='Btn'>Read More</button> </Link>
 </span>

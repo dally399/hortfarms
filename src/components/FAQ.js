@@ -15,33 +15,33 @@ function FAQ() {
   const faqData = [
     {
       id: 1,
-      question: 'Why is the moon sometimes out during the day?',
+      question: 'What types of fruits do you source and export?',
       answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.',
+      ' We source and export a wide variety of fruits, including  mangoes, avocados and pineapples. We can also source and export more specialized fruits like the hass and fuerte avocados.'
     },
     {
       id: 2,
-      question: 'Why is the sky blue?',
+      question: 'How do you ensure the quality of your fruits?',
       answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.',
+      ' We have a strict quality control process in place to ensure that our fruits are of the highest quality. We work with experienced and reputable growers who produce fruits that meet our strict standards. We also inspect all of our fruits before they are exported to ensure that they are fresh and free from defects.'
     },
     {
       id: 3,
-      question: 'Will we ever discover aliens?',
+      question: 'What are your export markets?',
       answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.',
+      'We export our fruits to a wide range of markets around the world, including Europe, North America, Asia, and the Middle East. We are constantly expanding our export markets and are always looking for new opportunities to partner with importers and distributors.'
     },
     {
       id: 4,
-      question: 'How much does the Earth weigh?',
+      question: 'What are your shipping and logistics options?',
       answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.',
+      'We offer a variety of shipping and logistics options to meet the needs of our customers. We can ship our fruits by air or by sea, depending on the customers preference. We also offer a variety of packaging options to ensure that our fruits arrive at their destination in perfect condition.'
     },
     {
       id: 5,
-      question: 'How do airplanes stay up?',
+      question: 'How can I get started with importing fruits?',
       answer:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elementum sagittis vitae et leo duis ut. Ut tortor pretium viverra suspendisse potenti.',
+      'If you are new to importing fruits, we recommend that you contact us to discuss your needs. We can help you to identify the right suppliers, negotiate contracts, and arrange for shipping and logistics.'
     },
   ];
 

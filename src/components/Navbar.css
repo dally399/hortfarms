@@ -98,8 +98,8 @@
         padding: 0;
         height: 10vh;
         align-items: center;
-        padding-left: 2rem;
-        padding-right: 2rem;
+        /* padding-left: 10px; */
+        /* padding-right: 10px; */
         z-index: 1000;
     }
 

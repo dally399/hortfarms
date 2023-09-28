@@ -15,8 +15,8 @@ function Achievements() {
     AOS.refresh();
   }, []);
   return (
-    <div className="achieve-title">
-      <span data-aos="fade-up"
+    <div className="achieve-main">
+      <span className="achieve-title" data-aos="fade-up"
      data-aos-duration="600">Our Achievements</span>
     <div className="container-achievements" data-aos="fade-up"
      data-aos-duration="3000">

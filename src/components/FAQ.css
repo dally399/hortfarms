@@ -6,7 +6,8 @@
   }
 
   .faq-container h2{
-    font-size: 2rem;
+    font-size: 3.5rem;
+    font-family: 'Square Peg', cursive;
     text-align: center;
   font-weight: 600;
   color: var(--green700);

@@ -14,8 +14,8 @@ function WhatWeDo() {
     AOS.refresh();
   }, []);
   return (
-    <div className="title-main">
-      <span data-aos="zoom-in-up"data-aos-offset="200"
+    <div className="whatwedo-main">
+      <span className='title-main' data-aos="zoom-in-up"data-aos-offset="200"
     data-aos-delay="70"
     data-aos-duration="1000"
     data-aos-easing="ease-in-out"

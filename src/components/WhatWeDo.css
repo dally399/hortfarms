@@ -19,14 +19,21 @@
   align-items: center;
 }
 
+.whatwedo-main{
+  padding-top: 4rem;
+}
+
 .title-main{
   text-align: center;
-  padding-top: 7rem;
-  padding-bottom: 3rem;
-  font-size: 2rem;
+  display: flex;
+  justify-content: center;
+  /* padding-bottom: 3rem; */
+  font-size: 3.5rem;
+  font-family: 'Square Peg', cursive;
     font-weight: 600;
     color: var(--green700);
 }
+
 
 .card-exp {
   width: 100%;
@@ -48,6 +55,7 @@
   font-size: 28px;
   font-weight: 500;
   opacity: 1;
+  text-align: center;
   background: var(--black);
   background-clip: text;
   -webkit-background-clip: text;
