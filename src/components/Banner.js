@@ -33,15 +33,15 @@ function Banner() {
  
       </p>
       <ul  className='banner-p2'>
-        <li>• Competent and professional team</li>
-        <li>• Competitive prices</li>
-        <li>• Professional consultation</li>
-        <li>• Professional consultation</li>
-        <li>• Strategic market-based agreements with organized farmers</li>
-        <li>• Transparency Value chain</li>
-        <li>• Production and packaging of quality products</li>
-        <li>• We value food safety</li>
-        <li>• We value Occupational health and safety of our employees</li>
+        <li>Competent and professional team</li>
+        <li>Competitive prices</li>
+        <li>Professional consultation</li>
+        <li>Professional consultation</li>
+        <li>Strategic market-based agreements with organized farmers</li>
+        <li>Transparency Value chain</li>
+        <li>Production and packaging of quality products</li>
+        <li>We value food safety</li>
+        <li>We value Occupational health and safety of our employees</li>
       </ul>
          
       </span>

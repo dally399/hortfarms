@@ -18,7 +18,7 @@
   width: 100%;
   text-align: start;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .card-contents{
@@ -130,6 +130,7 @@
   @media screen and (max-width: 475px){
     .card-hort{
       padding: 0;
+      margin: 0;
       position: relative;
       padding-left: 10px;
       padding-right: 10px;
@@ -138,9 +139,9 @@
 .description > p{
   padding: 0;
   width: 100%;
-  text-align: justify;
+  text-align: start;
   font-weight: 500;
-  font-size: 16px;
+  font-size: 15px;
 }
     .card-container{
       display: flex;
@@ -158,6 +159,7 @@
 @media screen and (475px <= width <= 640px){
   .card-hort{
     padding: 0;
+    margin: 0;
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
@@ -166,7 +168,7 @@
 .description > p{
 padding: 0;
 width: 100%;
-text-align: justify;
+text-align: start;
 font-weight: 500;
 font-size: 16px;
 }
@@ -187,6 +189,7 @@ font-size: 16px;
 @media screen and (640px <= width <= 768px){
   .card-hort{
     padding: 0;
+    margin: 0;
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
@@ -195,7 +198,7 @@ font-size: 16px;
 .description > p{
 padding: 0;
 width: 100%;
-text-align: justify;
+text-align: start;
 font-weight: 500;
 font-size: 16px;
 }
@@ -217,6 +220,7 @@ font-size: 16px;
 @media screen and (768px <= width <= 1280px){
   .card-hort{
     padding: 0;
+    margin: 0;
     position: relative;
     padding-left: 10px;
     padding-right: 10px;
@@ -225,7 +229,7 @@ font-size: 16px;
 .description > p{
 padding: 0;
 width: 100%;
-text-align: justify;
+text-align: start;
 font-weight: 500;
 font-size: 16px;
 }

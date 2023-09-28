@@ -46,8 +46,8 @@ function Navbar() {
       </div>  
         
       <div className='hamburger' onClick={handleClick}>
-        {click ? (<GrClose size={30} style={{ color: '#000' }} />)
-       : (<TbGridDots size={30} style={{ color: '#000' }} />)}
+        {click ? (<GrClose size={20} style={{ color: '#000' }} />)
+       : (<TbGridDots size={20} style={{ color: '#000' }} />)}
       </div>
     </div>
   )
