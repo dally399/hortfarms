@@ -5,7 +5,7 @@ import NewsletterForm from './NewsletterForm';
 import { GiWheat } from "react-icons/gi";
 import { GiFarmTractor } from "react-icons/gi";
 import { GiFarmer } from "react-icons/gi";
-import { GiBarn } from "react-icons/gi";
+import { RiPresentationLine } from "react-icons/ri";
 import { TbTruckDelivery } from "react-icons/tb";
 import { FaMapLocationDot } from "react-icons/fa6";
 import { BsBoxSeam } from "react-icons/bs";
@@ -41,10 +41,10 @@ Contact us today for more information about our products and services. We would 
           </p>
         </div>
         <div className="service">
-        <GiBarn className='icon-card'/>
-          <h2>Farm Supplies</h2>
+        <RiPresentationLine className='icon-card'/>
+          <h2>Fruit and Vegetables Marketing</h2>
           <p>
-            We offer a wide range of farm supplies. We also offer a variety of specialized supplies, such as greenhouse supplies and hydroponic supplies.
+          Whatever your taste, we have a fruit for you. And because we have such a large selection of fruits, you may always find something new to try.
           </p>
         </div>
         <div className="service">

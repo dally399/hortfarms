@@ -19,6 +19,7 @@ import NewsletterForm from './NewsletterForm';
 
 import image1 from '../assets/hero-pineapple.jpg'
 import image2 from '../assets/alexander-schimmeck-vTXtQ8ZBzvY-unsplash.jpg'
+import image3 from '../assets/hitoshi-namura-ePsIKxISjNU-unsplash.jpg'
 
 function Products() {
   useEffect(() =>{
@@ -82,7 +83,7 @@ Uses: Pineapples can be eaten fresh, added to salads, smoothies, and desserts, o
       </div>
  
       <div className="content-left-mid">
-        <span className='fuerte-title'>Mangos</span>
+        <span className='fuerte-title'>Mangoes</span>
         <span className='fuerte-container'>
         Mangoes are tropical fruits with a sweet, juicy flavor and a bright orange color. Mangoes are a good source of vitamins A, C, and E, as well as fiber and potassium.
 <p>Flavor: Sweet, juicy</p>
@@ -111,16 +112,14 @@ Uses: Mangoes can be eaten fresh, added to salads, smoothies, and desserts, or u
         className="mySwiper"
       >
         <SwiperSlide style={{height:"600px"}}>
-          <img src={image1} alt=""/>
+          <img src={image1} alt="" />
         </SwiperSlide>
         <SwiperSlide style={{height:"600px"}}>
           <img src={image2} alt="" />
         </SwiperSlide>
+       
         <SwiperSlide style={{height:"600px"}}>
-          <img src={mango} alt=""/>
-        </SwiperSlide>
-        <SwiperSlide style={{height:"600px"}}>
-          <img src={fuerte} alt=""/>
+          <img src={image3} alt=""/>
         </SwiperSlide>
       </Swiper>
     </>

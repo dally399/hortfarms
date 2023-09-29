@@ -26,13 +26,13 @@ function AboutUs() {
 
          <p className="text">Our continual growth has been instigated by a number of factors and initiatives and value which include;</p>
          <ul className="text-list">
-          <li>1. Competent and professional team</li>
-          <li>2. Competitive prices</li>
-          <li>3. Professional consultation</li>
-          <li>4. Strategic market-based agreements with organized farmers</li>
-          <li>5. Transparency Value chain</li>
-          <li>6. We value food safety</li>
-          <li>7. We value Occupational health and safety of our employees</li>
+          <li>Competent and professional team</li>
+          <li>Competitive prices</li>
+          <li>Professional consultation</li>
+          <li>Strategic market-based agreements with organized farmers</li>
+          <li>Transparency Value chain</li>
+          <li>We value food safety</li>
+          <li>We value Occupational health and safety of our employees</li>
          </ul>
          <p className="text">
           <p><b>Our Vision:</b></p>

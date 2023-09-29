@@ -55,17 +55,18 @@ function Banner() {
           <PiPottedPlantLight className='icon-card'/>
           100% Organic
         </span>
-        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
+        <p className='sub-content'>All of our fruits and veggies are 100% organically certified.  is not only beneficial to your health, but it is also beneficial to the environment.
+</p>
         <span className='banner-sub'>
           <MdFamilyRestroom className='icon-card'/>
         Family healthy
         </span>
-        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
+        <p className='sub-content'>Eating a diet rich in fruits and vegetables is one of the best things you can do for your family's health. Our produce is a great way to get your daily dose of essential vitamins, minerals, and antioxidants.</p>
         <span className='banner-sub'>
         <TbAirConditioning className='icon-card'/>
          Always Fresh
         </span>
-        <p className='sub-content'>Our fruit and vegetable are guaranteed to be Seasonal and Fresh. Great for your health</p>
+        <p className='sub-content'>We source our fruits and vegetables from local farms whenever possible. This ensures that our produce is always fresh and at its peak flavor. We also take great care in packaging and shipping our produce, so that it arrives at your door in perfect condition.</p>
 
 <br />
 <Link className="link" to='/products'> <button className='Btn' style={{fontSize:"15px"}}>Read More</button> </Link>

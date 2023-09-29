@@ -7,7 +7,7 @@ import "aos/dist/aos.css";
 import { GiWheat } from "react-icons/gi";
 import { GiFarmTractor } from "react-icons/gi";
 import { GiFruitBowl } from "react-icons/gi";
-import { GiBarn } from "react-icons/gi";
+import { RiPresentationLine } from "react-icons/ri";
 
 function Card() {
   useEffect(() => {
@@ -66,14 +66,14 @@ function Card() {
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">Farm <br /> Supplies</span>
+          <span className="card-title">Fruits <br /> Marketing</span>
           <p className="card-content">
-          Farm supplies refer to essential resources and materials required for agricultural activities. Farm supplies are crucial for ensuring the successful cultivation of crops.
+          We provide our clients with a wide range of services to help them succeed. We are dedicated to assisting our clients in selling their fruit goods at the best possible price and to the broadest potential audience.
           </p>
         
         </div>
         <div className="date-box">
-        <GiBarn className='icon-card'/>
+        <RiPresentationLine className='icon-card'/>
         </div>
       </div>
     </div></div>
