@@ -41,6 +41,7 @@
   
   .card_blog_title {
     font-weight: bold;
+    padding-right: 10px;
   }
   
   .card_blog_content {
@@ -95,6 +96,14 @@
   .card_blog:hover .card_blog_description {
     opacity: 1;
     transition-delay: .25s;
+  }
+
+  .temporary_text{
+    width: 100%;
+  }
+
+  .temporary_text img{
+    max-width: 100%;
   }
   
     /* xs */

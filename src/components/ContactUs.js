@@ -22,7 +22,7 @@ function ContactUs() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_4a3e98d', 'template_hx5z89g', form.current, 'iY_XaL7I25ldaG2M6')
+    emailjs.sendForm('service_26x4lnc', 'template_vhp7doy', form.current, 'Ol3C811FWB2CZEs9S')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -67,7 +67,7 @@ function ContactUs() {
           </li>
           <li>
             <HiOutlineMail className='icon-us'/>
-            hotfarmsltd@gmail.com
+            hortfarmsltdinfo@gmail.com
           </li>
           <li>
            <BsTelephone className='icon-us'/>
