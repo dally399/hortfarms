@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import Hero from './Hero';
 import Card from './Card';
 import Banner from './Banner';
@@ -9,6 +9,10 @@ import WhatWeDo from './WhatWeDo';
 
 
 function Home() {
+  useEffect(() =>{
+    window.scrollTo(0,0);
+  },[]);
+
   return (
     <div>
     

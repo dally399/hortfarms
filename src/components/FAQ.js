@@ -1,7 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './FAQ.css';
 
 function FAQ() {
+  useEffect(() =>{
+    window.scrollTo(0,0);
+  },[]);
+
   const [activeItem, setActiveItem] = useState(null);
 
   const toggleAccordion = (index) => {

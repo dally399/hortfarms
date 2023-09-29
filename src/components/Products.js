@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Products.css'
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -21,6 +21,9 @@ import image1 from '../assets/hero-pineapple.jpg'
 import image2 from '../assets/alexander-schimmeck-vTXtQ8ZBzvY-unsplash.jpg'
 
 function Products() {
+  useEffect(() =>{
+    window.scrollTo(0,0);
+  },[]);
   return (
     <div className="shell">
     <div className="main-body-container">

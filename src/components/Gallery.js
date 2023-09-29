@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Gallery.css'
 import NewsletterForm from './NewsletterForm';
 
@@ -14,6 +14,10 @@ import hass8 from '../assets/images.jpeg'
 import hass9 from '../assets/licensed-image.jpeg'
 
 function Gallery() {
+  useEffect(() =>{
+    window.scrollTo(0,0);
+  },[]);
+
   return (
     <div className="shell">
     <div className="gallery">

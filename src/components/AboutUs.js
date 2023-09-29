@@ -7,6 +7,7 @@ import NewsletterForm from './NewsletterForm';
 
 function AboutUs() {
   useEffect(() => {
+    window.scrollTo(0,0);
     AOS.init();
     AOS.refresh();
   }, []);

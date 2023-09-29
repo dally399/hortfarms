@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import './Services.css'; 
 import NewsletterForm from './NewsletterForm';
 
@@ -13,6 +13,9 @@ import { IoDiamondOutline } from "react-icons/io5";
 
 
 function Services() {
+  useEffect(() =>{
+    window.scrollTo(0,0);
+  },[]);
   return (
     <div className="shell">
     <div className="serice-container">
