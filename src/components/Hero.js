@@ -74,7 +74,7 @@ export default function Hero() {
         <img src={image3} alt="" loading='lazy'/>
       <div className="left-side">
         
-        <span className='h-mid animate__animated animate__bounceInDown'>MANGOS</span> <br />
+        <span className='h-mid animate__animated animate__bounceInDown'>MANGOES</span> <br />
         <span className='h-below animate__animated animate__bounceInDown'>By HortFarms</span>
 
        <Link className="link" to='/products'> <button className='Btn-hero animate__animated animate__bounceInDown'  >See Products</button> </Link> 

@@ -2,6 +2,9 @@ import React, {useEffect} from 'react';
 import './Services.css'; 
 import NewsletterForm from './NewsletterForm';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 import { GiWheat } from "react-icons/gi";
 import { GiFarmTractor } from "react-icons/gi";
 import { GiFarmer } from "react-icons/gi";
@@ -14,18 +17,20 @@ import { IoDiamondOutline } from "react-icons/io5";
 
 function Services() {
   useEffect(() =>{
+    AOS.init();
+    AOS.refresh();
     window.scrollTo(0,0);
   },[]);
   return (
     <div className="shell">
     <div className="serice-container">
-      <h1>Our Services</h1>
-      <div className="service-heading">
+      <h1 data-aos="fade-up">Our Services</h1>
+      <div className="service-heading" data-aos="fade-up">
       We are committed to providing our customers with the highest quality products and services. We believe that agriculture is essential to the future of humanity, and we are proud to play a role in helping farmers to produce the food that we all need.
 
 Contact us today for more information about our products and services. We would be happy to help you with all of your agricultural needs.
       </div>
-      <div className="row">
+      <div className="row" data-aos="zoom-in-up">
         <div className="service">
         <GiWheat className='icon-card'/>
           <h2>Agricultural Products</h2>

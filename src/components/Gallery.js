@@ -2,6 +2,9 @@ import React, {useEffect} from 'react';
 import './Gallery.css'
 import NewsletterForm from './NewsletterForm';
 
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 //other imports
 import mango1 from '../assets/Tommy Atkins mangoes.jpeg'
 import mango2 from '../assets/Kent Mango, Value Bundle (6 count).jpeg'
@@ -18,12 +21,14 @@ import pineapple8 from '../assets/Premium Photo _ Juicy and ripe pineapple on a 
 
 function Gallery() {
   useEffect(() =>{
+    AOS.init();
+    AOS.refresh();
     window.scrollTo(0,0);
   },[]);
 
   return (
     <div className="shell">
-    <div className="gallery">
+    <div className="gallery" data-aos="zoom-in">
        <img src={mango1} alt=''/>
        <img src={mango2} alt=''/>
        <img src={hass3} alt=''/>

@@ -1,5 +1,8 @@
-import React from 'react'
+import React, {useEffect} from 'react';
 import './Blog.css'
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 import blog1 from '../assets/Smart Farming_ IoT In Agriculture - Renke.jpg'
 import blog2 from '../assets/How to Wash Vegetables from the Farmers Market.jpg'
@@ -10,12 +13,17 @@ import blog6 from '../assets/5 Simple Diet Changes That Can Help You Lose 10 Pou
 import NewsletterForm from './NewsletterForm';
 
 function Blog() {
+  useEffect(() =>{
+  AOS.init();
+  AOS.refresh();
+  window.scrollTo(0,0);
+},[]);
   return ( 
    <div className="blog-header">
-    <div className="blog-heading">
+    <div className="blog-heading" data-aos="fade-up">
       <span>Latest In The Blogs</span>
     </div>
-    <div className="blog-container-top">      
+    <div className="blog-container-top" data-aos="fade-up">      
 
     <div class="card_blog">
     <div class="temporary_text"> 
