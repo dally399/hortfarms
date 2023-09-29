@@ -6,7 +6,7 @@ import Achievements from './Achievements';
 import NewsletterForm from './NewsletterForm';
 import Slider from './Slider';
 import WhatWeDo from './WhatWeDo';
-
+import Certification from './Certification';
 
 function Home() {
   useEffect(() =>{
@@ -22,6 +22,7 @@ function Home() {
     <Slider/> 
     <WhatWeDo/>
     <Achievements/>
+    <Certification/>
     <NewsletterForm/>
    
     </div>
