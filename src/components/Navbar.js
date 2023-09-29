@@ -16,7 +16,7 @@ function Navbar() {
   return (
     <div className="n-wrapper">
       <div className="nav-left"> 
-        <Link className="link" to='/home'><img src={logo} alt="logo" /></Link>       
+        <Link className="link" to='/home'><img className='logo-img' src={logo} alt="logo" /></Link>       
         </div>     
 
       <div className={click ? "nav-right active" : "nav-right"}>
@@ -46,8 +46,8 @@ function Navbar() {
       </div>  
         
       <div className='hamburger' onClick={handleClick}>
-        {click ? (<GrClose size={20} style={{ color: '#000' }} />)
-       : (<TbGridDots size={20} style={{ color: '#000' }} />)}
+        {click ? (<GrClose size={23} style={{ color: '#000' }} />)
+       : (<TbGridDots size={23} style={{ color: '#000' }} />)}
       </div>
     </div>
   )

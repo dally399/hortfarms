@@ -1,20 +1,22 @@
+.blog-header{
+    
+    /* background: green; */
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+}
+
 .blog-container-top{
+  max-width: 100%;
     display: grid;
+    /* background: gold; */
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    gap: 1rem;
+    grid-row-gap: 30px; 
+    grid-column-gap: 30px;
+    /* padding-left: 35px; */
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
-.blog-header{ 
-  /* background: #F1FFE5; */
-}
-.blog-container-bottom{
-  padding-top: 1rem;
-  padding-bottom: 4rem;
-}
+
 
 .blog-heading{
   text-align: center;
@@ -29,7 +31,7 @@
 
 .card_blog {
     position: relative;
-    width: 400px;
+    width: 100%;
     height: 450px;
     color: #2e2d31;
     background: #131313;
@@ -118,19 +120,20 @@
 }
 
   /* sm */
-@media screen and (476px <= width <= 640px){
+@media screen and (max-width: 520px){
   .blog-header{
     padding: 0;
   }
 
   .blog-container-top{
-    width: 100%;
+    max-width: 100%;
     padding: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
 
     .card_blog{
+      width: 100%;
       flex-grow: 1;
       /* width: 350px;
       height: 450px; */
@@ -140,14 +143,14 @@
 }
 
 /* md */
-@media screen and (641px <= width <= 768px){
+@media screen and (521px <= width <= 768px){
   .blog-header{
     padding: 0;
     justify-content: center;
   }
 
   .blog-container-top{
-    width: 100%;
+    max-width: 100%;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -157,8 +160,8 @@
 
     .card_blog{
       /* flex-grow: 1; */
-      width: 300px;
-      height: 400px;
+      width: 100%;
+      /* height: 400px; */
     }
   }
 
@@ -172,7 +175,7 @@
   }
 
   .blog-container-top{
-    width: 100%;
+    max-width: 100%;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -181,6 +184,7 @@
 
     .card_blog{
       flex-grow: 1;
+      width: 100%;
       /* width: 350px;
       height: 450px; */
     }
@@ -195,7 +199,7 @@
   }
 
   .blog-container-top{
-    width: 100%;
+    max-width: 100%;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -203,8 +207,9 @@
     margin-left: 50px;
 
     .card_blog{
-      width: 450px;
-      height: 500px;
+      width: 100%;
+      flex-grow: 1;
+      /* height: 500px; */
     }
   }
 }

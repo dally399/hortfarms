@@ -115,7 +115,7 @@
         height: 250px;
     }
     .description-heading{
-        width: 100%;
+        /* width: 100%; */
         text-align: start;
         padding-left: 10px;
         padding-right: 10px;

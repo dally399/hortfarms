@@ -76,9 +76,14 @@
                 font-weight: 500;
             }
 
-            .banner-p1, .banner-sub{
+            .banner-p1{
                 font-size: 17px;
                 font-weight: 500;
+            }
+
+            .banner-sub{
+                font-size: 17px;
+                font-weight: 800;
             }
 
             .banner-p2, .sub-content{
