@@ -5,9 +5,9 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 
 import { BiTimeFive } from "react-icons/bi";
-import { MdAttachMoney } from "react-icons/md";
+import { GiAirplaneDeparture } from "react-icons/gi";
 import { AiOutlineTrophy } from "react-icons/ai";
-import { BsGraphUpArrow } from "react-icons/bs";
+import { TbSteam } from "react-icons/tb";
 
 function Achievements() {
   useEffect(() => {
@@ -27,14 +27,14 @@ function Achievements() {
       <span className='txt-achieve'>Years Of Success</span>
     </div>
     <div className="item">
-      <BsGraphUpArrow  className='icon-achieve'/>
-      <span className="quantity">100+</span>
-      <span className='txt-achieve'>Sales</span>
+      <TbSteam  className='icon-achieve'/>
+      <span className="quantity">10K+</span>
+      <span className='txt-achieve'>Farmers Work With Us</span>
     </div>
     <div className="item">
-    <MdAttachMoney  className='icon-achieve'/>
-      <span className="quantity">$1.5 M</span>
-      <span className='txt-achieve'>Total Earnings</span>
+    <GiAirplaneDeparture  className='icon-achieve'/>
+      <span className="quantity">10+</span>
+      <span className='txt-achieve'>Global Product Destination</span>
     </div>
     <div className="item">
       <AiOutlineTrophy  className='icon-achieve'/>

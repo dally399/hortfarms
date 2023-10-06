@@ -25,6 +25,8 @@ function Navbar() {
           <ul className= "nav-list" style={{listStyleType:'none'}}>
 
             <Link className="link" to='/home' onClick={closeMenu}><li className='listItem'>Home</li></Link>
+            <Link className="link" to='/about' onClick={closeMenu}><li className='listItem'>About us</li></Link>
+            <Link className="link" to='/services' onClick={closeMenu}><li className='listItem'>Services</li></Link>
 
             <li className='listItem'>Catalog
             <ul className='dropdown-menu'>
@@ -35,8 +37,6 @@ function Navbar() {
             </li>
 
             <Link className="link" to='/blog' onClick={closeMenu}><li className='listItem'>Blog</li></Link>
-            <Link className="link" to='/services' onClick={closeMenu}><li className='listItem'>Services</li></Link>
-            <Link className="link" to='/about' onClick={closeMenu}><li className='listItem'>About us</li></Link>
           </ul>
         </div>
 

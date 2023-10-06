@@ -5,12 +5,12 @@ import NewsletterForm from './NewsletterForm';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { GiWheat } from "react-icons/gi";
-import { GiFarmTractor } from "react-icons/gi";
+import { LiaSeedlingSolid } from "react-icons/lia";
+import { MdEngineering } from "react-icons/md";
 import { GiFarmer } from "react-icons/gi";
-import { RiPresentationLine } from "react-icons/ri";
-import { TbTruckDelivery } from "react-icons/tb";
-import { FaMapLocationDot } from "react-icons/fa6";
+import { FaPeopleRobbery } from "react-icons/fa6";
+import { AiOutlineFundProjectionScreen } from "react-icons/ai";
+import { LiaIndustrySolid } from "react-icons/lia";
 import { BsBoxSeam } from "react-icons/bs";
 import { IoDiamondOutline } from "react-icons/io5";
 
@@ -32,47 +32,21 @@ Contact us today for more information about our products and services. We would 
       </div>
       <div className="row" data-aos="zoom-in-up">
         <div className="service">
-        <GiWheat className='icon-card'/>
-          <h2>Agricultural Products</h2>
+        <LiaSeedlingSolid className='icon-card'/>
+          <h2>Aggregation</h2>
           <p>
-          Our products come from sustainable farms all around the world that use cutting-edge farming methods to assure excellent quality and output.
+          We assist farmers in aggregating and selling their fruits and vegetables in bulk, reducing expenses, and boosting profits.
           </p>
         </div>
+
         <div className="service">
-        <GiFarmTractor className='icon-card'/>
-          <h2>Modern Techniques</h2>
+          <LiaIndustrySolid className='icon-card'/>
+          <h2>Processing</h2>
           <p>
-          In our agricultural operations, we employ a number of sophisticated technology. It allows us to conserve resources, increase yields, and lessen our environmental effect.
+          We provide fruit and vegetable processing services like drying, juicing, and freezing to help farmers increase shelf life and access new markets.
           </p>
         </div>
-        <div className="service">
-        <RiPresentationLine className='icon-card'/>
-          <h2>Fruit and Vegetables Marketing</h2>
-          <p>
-          Whatever your taste, we have a fruit for you. And because we have such a large selection of fruits, you may always find something new to try.
-          </p>
-        </div>
-        <div className="service">
-        <GiFarmer className='icon-card'/>
-          <h2>Expert Farmer</h2>
-          <p>
-          Our team of expert farmers is available to provide you with advice and support on all aspects of agriculture. 
-          </p>
-        </div>
-        <div className="service">
-          <FaMapLocationDot className='icon-card'/>
-          <h2>Source Fresh Fruits and Vegetables</h2>
-          <p>
-          We are a leading supplier of fresh fruits and vegetables. 
-          </p>
-        </div>
-        <div className="service">
-        <TbTruckDelivery className='icon-card'/>
-          <h2>Export Fresh Fruits and Vegetables</h2>
-          <p>
-          We also export fresh fruits and vegetables to markets all over the world.
-          </p>
-        </div>
+
         <div className="service">
         <BsBoxSeam className='icon-card'/>
           <h2>Logistics</h2>
@@ -80,6 +54,39 @@ Contact us today for more information about our products and services. We would 
           We transport our produce from the farm to its destination.
           </p>
         </div>
+
+        <div className="service">
+        <FaPeopleRobbery className='icon-card'/>
+          <h2>Market Linkage</h2>
+          <p>
+          We connect farmers with buyers all over the world, ensuring that they get the best possible price for their produce.
+          </p>
+        </div>
+
+        <div className="service">
+        <MdEngineering className='icon-card'/>
+          <h2>Modern Techniques</h2>
+          <p>
+          In our agricultural operations, we employ a number of sophisticated technology. It allows us to conserve resources, increase yields, and lessen our environmental effect.
+          </p>
+        </div>
+      
+        <div className="service">
+        <GiFarmer className='icon-card'/>
+          <h2>Technical Advisory Services to Farmers</h2>
+          <p>
+          Our team of expert farmers is available to provide you with advice and support on all aspects of agriculture. 
+          </p>
+        </div>
+      
+        <div className="service">
+        <AiOutlineFundProjectionScreen className='icon-card'/>
+          <h2>Training and development</h2>
+          <p>
+          We offer farmers technical advice, enhance production, provide post-harvest training, and aid market access.
+          </p>
+        </div>
+      
         <div className="service">
           <IoDiamondOutline className='icon-card'/>
           <h2>Quality Control</h2>

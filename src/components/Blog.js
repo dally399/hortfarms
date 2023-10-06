@@ -23,7 +23,7 @@ function Blog() {
     <div className="blog-heading" data-aos="fade-up">
       <span>Latest In The Blogs</span>
     </div>
-    <div className="blog-container-top" data-aos="fade-up">      
+    <div className="blog-container-top" data-aos="zoom-in-up">      
 
     <div class="card_blog">
     <div class="temporary_text"> 

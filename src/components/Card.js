@@ -4,10 +4,10 @@ import './Card.css'
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-import { GiWheat } from "react-icons/gi";
-import { GiFarmTractor } from "react-icons/gi";
-import { GiFruitBowl } from "react-icons/gi";
-import { RiPresentationLine } from "react-icons/ri";
+import { LiaSeedlingSolid } from "react-icons/lia";
+import { LiaIndustrySolid } from "react-icons/lia";
+import { GiFarmer } from "react-icons/gi";
+import { BsBoxSeam } from "react-icons/bs";
 
 function Card() {
   useEffect(() => {
@@ -37,14 +37,14 @@ function Card() {
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">Agricultural Products</span>
+          <span className="card-title">Aggregation</span>
           <p className="card-content">
-          We at Hortfarms Ltd play a vital role in supplying food, raw materials, and economic livelihoods to communities worldwide, serving as the foundation of our global food supply chain.
+          We aggregate fruits and vegetables from farmers, ensuring that they meet the highest quality standards. We work closely with farmers to understand their needs and provide them with the support they need to be successful.
           </p>
         
         </div>
         <div className="date-box">
-            <GiWheat className='icon-card'/>
+            <LiaSeedlingSolid className='icon-card'/>
         </div>
       </div>
     </div></div>
@@ -52,42 +52,42 @@ function Card() {
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">Modern <br /> Techniques</span>
+          <span className="card-title">Processing</span>
           <p className="card-content">
-          We prioritize sustainable practices, including organic farming, crop rotation, and reduced chemical usage, to protect the environment and promote long-term food security. 
+          We process fruits and vegetables to extend their shelf life and make them more convenient for our customers. We use state-of-the-art processing facilities and equipment to ensure that our products are of the highest quality.
           </p>
         
         </div>
         <div className="date-box">
-        <GiFarmTractor className='icon-card'/>
+        <LiaIndustrySolid className='icon-card'/>
         </div>
       </div>
     </div></div>
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">Fruits <br /> Marketing</span>
+          <span className="card-title">Supply</span>
           <p className="card-content">
-          We provide our clients with a wide range of services to help them succeed. We are dedicated to assisting our clients in selling their fruit goods at the best possible price and to the broadest potential audience.
+          We supply a wide variety of fruits to our customers all over the world. We are able to source fruits from all over the globe, ensuring that our customers have access to the freshest and highest quality fruits available.
           </p>
         
         </div>
         <div className="date-box">
-        <RiPresentationLine className='icon-card'/>
+        <BsBoxSeam className='icon-card'/>
         </div>
       </div>
     </div></div>
         <div className="card-contents"><div className="parent">
       <div className="card">
         <div className="content-box">
-          <span className="card-title">Fresh Fruits <br /> and Vegetables</span>
+          <span className="card-title">Technical Advisory</span>
           <p className="card-content">
-          Are natural, unprocessed foods that are rich in vitamins, minerals, and dietary fiber. They are essential components of a healthy diet and provide a wide range of flavors and nutritional benefits. 
+          We at HortFarms provide technical advisory services to farmers to help them improve their yields and quality. Our team of experts works with farmers to develop and implement best practices in agriculture.
           </p>
   
         </div>
         <div className="date-box">
-        <GiFruitBowl className='icon-card'/>
+        <GiFarmer className='icon-card'/>
         </div>
       </div>
     </div></div>

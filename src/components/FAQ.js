@@ -21,7 +21,7 @@ function FAQ() {
       id: 1,
       question: 'What types of fruits do you source and export?',
       answer:
-      ' We source and export a wide variety of fruits, including  mangoes, avocados and pineapples. We can also source and export more specialized fruits like the hass and fuerte avocados.'
+      ' We source and export a wide variety of fruits, including  mangoes, avocados and pineapples.'
     },
     {
       id: 2,
@@ -39,7 +39,7 @@ function FAQ() {
       id: 4,
       question: 'What are your shipping and logistics options?',
       answer:
-      'We offer a variety of shipping and logistics options to meet the needs of our customers. We can ship our fruits by air or by sea, depending on the customers preference. We also offer a variety of packaging options to ensure that our fruits arrive at their destination in perfect condition.'
+      'We offer a variety of shipping and logistics options to meet the needs of our customers. We ship our fruits by air or by sea, depending on the customers preference. We also offer a variety of packaging options to ensure that our fruits arrive at their destination in perfect condition.'
     },
     {
       id: 5,

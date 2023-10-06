@@ -35,12 +35,12 @@ export default function Slider() {
       <span className='slider-title' data-aos="fade-up"
      data-aos-duration="300">Featured Products</span> 
       <span className='slider-description' data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="300">
       Our featured products are the most delicious and fresh fruits and vegetables available. We carefully choose them from the best farms in the country and deliver them to your door so you can enjoy them at their peak ripeness.
 
         </span>  
         <span className='slider-btn' data-aos="fade-up"
-     data-aos-duration="3000">
+     data-aos-duration="300">
          <Link className="link" to='/gallery'><button className='Btn'>See more on Gallery <AiOutlineArrowRight className='icon-slider'/></button> </Link> 
         </span>
     <>

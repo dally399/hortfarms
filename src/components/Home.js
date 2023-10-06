@@ -18,9 +18,9 @@ function Home() {
     
     <><Hero/></> 
     <><Card/></> 
+    <WhatWeDo/>
     <><Banner/></>       
     <Slider/> 
-    <WhatWeDo/>
     <Achievements/>
     <Certification/>
     <NewsletterForm/>

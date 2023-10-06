@@ -35,7 +35,7 @@ function ContactUs() {
   return (
     <div className="shell">
     <div className="main-container">
-    <section className="contact-container">
+    <section className="contact-container" data-aos="zoom-in-up">
       <form ref={form} onSubmit={sendEmail} className="contact-form">
         <div className="heading">
           <h2>GET IN TOUCH</h2>
@@ -63,7 +63,7 @@ function ContactUs() {
         <ul className="contacts">
           <li>
             <CiLocationOn className='icon-us'/>
-            Kisumu County, Kenya
+            Juja Industrial Park, Kenya
           </li>
           <li>
             <HiOutlineMail className='icon-us'/>
@@ -83,7 +83,7 @@ function ContactUs() {
   <span className='locate'>Our Location</span>
 
  <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2042785.1725976039!2d32.35713958740235!3d-0.0762176288885438!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182aa344ef6e7891%3A0xa16bc52db78a90cf!2sKenya%20Industrial%20Research%20%26%20Develpoment%20Institute%20(Kirdi)%20-%20Kisumu!5e0!3m2!1sen!2ske!4v1695968141397!5m2!1sen!2ske" 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d255292.12090901556!2d36.73421134551684!3d-1.2154004111972663!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f471e53e56885%3A0xc444632845b5fa0a!2sjuja%20industrial%20park!5e0!3m2!1sen!2ske!4v1696596564125!5m2!1sen!2ske"
       width="100%"
       height="600"
       title='Hortfarms Ltd Location'
