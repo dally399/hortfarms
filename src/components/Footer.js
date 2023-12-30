@@ -29,7 +29,7 @@ const Footer = () => {
                 <div className='bottom'>
                 
                     <span className='line'></span>
-                    <p>2023 HortFarms, Ltd. All rights reserved</p>
+                    <p>2024 HortFarms, Ltd. All rights reserved</p>
                 </div>
             </div>
         </div>
