@@ -70,6 +70,18 @@ function ContactUs() {
             hortfarmsltdinfo@gmail.com
           </li>
           <li>
+            <HiOutlineMail className='icon-us'/>
+            Director@hortfarms.co.ke 
+          </li>
+          <li>
+            <HiOutlineMail className='icon-us'/>
+            Operations@hortfarms.co.ke
+          </li>
+          <li>
+            <HiOutlineMail className='icon-us'/>
+            Info@hortfarms.co.ke
+          </li>
+          <li>
            <BsTelephone className='icon-us'/>
            (+254) 0701439141
           </li>
